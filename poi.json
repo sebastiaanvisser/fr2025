@@ -653,5 +653,915 @@
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
     "image": null
+  },
+  {
+    "name": "Natura Game",
+    "lat": 43.68,
+    "lng": 1.523,
+    "location": "Castelmaurou, Haute-Garonne",
+    "website": "https://www.natura-game.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "climbing_forest",
+    "minAge": 3,
+    "image": null
+  },
+  {
+    "name": "La Belle Verte",
+    "lat": 43.202,
+    "lng": 1.421,
+    "location": "Le Fossat, Ariège",
+    "website": "https://www.la-belle-verte.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "climbing_forest",
+    "minAge": 3,
+    "image": null
+  },
+  {
+    "name": "Sequoia Vertigo",
+    "lat": 43.158,
+    "lng": 1.408,
+    "location": "Carla-Bayle, Ariège",
+    "website": "https://www.sequoiavertigo.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "climbing_forest",
+    "minAge": 3,
+    "image": null
+  },
+  {
+    "name": "AccroCamp Toulouse",
+    "lat": 43.654,
+    "lng": 1.424,
+    "location": "Toulouse, Haute-Garonne",
+    "website": "https://accrocamp.com/parcs/toulouse-sesquieres/",
+    "nearCampsite": "Camping La Prade",
+    "category": "climbing_forest",
+    "minAge": 3,
+    "image": null
+  },
+  {
+    "name": "Tépacap Mérignac",
+    "lat": 44.841,
+    "lng": -0.66,
+    "location": "Mérignac, Gironde",
+    "website": "https://www.tepacap-merignac.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "climbing_forest",
+    "minAge": 3,
+    "image": null
+  },
+  {
+    "name": "Oc’Aventures",
+    "lat": 43.743,
+    "lng": 3.868,
+    "location": "Saint-Jean-de-Cuculles, Hérault",
+    "website": "https://www.ocaventures.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "climbing_forest",
+    "minAge": 3,
+    "image": null
+  },
+  {
+    "name": "Tarz’en Arbre",
+    "lat": 45.892,
+    "lng": 1.265,
+    "location": "Couzeix, Haute-Vienne",
+    "website": "http://www.tarzenarbre.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "climbing_forest",
+    "minAge": 3,
+    "image": null
+  },
+  {
+    "name": "Agrip Aventure",
+    "lat": 43.954,
+    "lng": 1.225,
+    "location": "Montech, Tarn-et-Garonne",
+    "website": "https://agripaventure.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "climbing_forest",
+    "minAge": 3,
+    "image": null
+  },
+  {
+    "name": "Cap Nature Rocamadour",
+    "lat": 44.803,
+    "lng": 1.63,
+    "location": "Rocamadour, Lot",
+    "website": "https://www.capnature-rocamadour.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "climbing_forest",
+    "minAge": 3,
+    "image": null
+  },
+  {
+    "name": "Monkey’s Forest",
+    "lat": 44.025,
+    "lng": 1.369,
+    "location": "Montauban, Tarn-et-Garonne",
+    "website": "https://monkeys-forest.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "climbing_forest",
+    "minAge": 3,
+    "image": null
+  },
+  {
+    "name": "Carcassonne (Cité Médiévale)",
+    "lat": 43.213,
+    "lng": 2.351,
+    "location": "Carcassonne, Aude",
+    "website": "https://www.tourisme-carcassonne.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Mirepoix",
+    "lat": 43.087,
+    "lng": 1.883,
+    "location": "Mirepoix, Ariège",
+    "website": "https://www.tourisme-mirepoix.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Moissac",
+    "lat": 44.102,
+    "lng": 1.093,
+    "location": "Moissac, Tarn-et-Garonne",
+    "website": "https://www.moissac-terresdesconfluences.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Lauzerte",
+    "lat": 44.265,
+    "lng": 1.135,
+    "location": "Lauzerte, Tarn-et-Garonne",
+    "website": "https://www.lauzerte-tourisme.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Bruniquel",
+    "lat": 44.059,
+    "lng": 1.61,
+    "location": "Bruniquel, Tarn-et-Garonne",
+    "website": "https://www.bruniquel.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Castelnau-de-Montmiral",
+    "lat": 43.998,
+    "lng": 1.757,
+    "location": "Castelnau-de-Montmiral, Tarn",
+    "website": "https://www.la-toscane-occitane.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Puycelsi",
+    "lat": 43.998,
+    "lng": 1.633,
+    "location": "Puycelsi, Tarn",
+    "website": "https://www.la-toscane-occitane.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Auvillar",
+    "lat": 44.076,
+    "lng": 0.888,
+    "location": "Auvillar, Tarn-et-Garonne",
+    "website": "https://www.auvillar.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Collonges-la-Rouge",
+    "lat": 45.06,
+    "lng": 1.66,
+    "location": "Collonges-la-Rouge, Corrèze",
+    "website": "https://www.collonges-la-rouge.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Saint-Cirq-Lapopie",
+    "lat": 44.47,
+    "lng": 1.67,
+    "location": "Saint-Cirq-Lapopie, Lot",
+    "website": "https://www.saint-cirqlapopie.com/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Grotte de Niaux",
+    "lat": 42.83,
+    "lng": 1.608,
+    "location": "Niaux, Ariège",
+    "website": "https://www.grotte-niaux.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "cave",
+    "image": null
+  },
+  {
+    "name": "Grotte du Mas-d’Azil",
+    "lat": 43.095,
+    "lng": 1.22,
+    "location": "Le Mas-d’Azil, Ariège",
+    "website": "https://www.grotte-mas-dazil.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "cave",
+    "image": null
+  },
+  {
+    "name": "Grotte de Gargas",
+    "lat": 42.987,
+    "lng": 0.501,
+    "location": "Aventignan, Hautes-Pyrénées",
+    "website": "https://www.grottesdegargas.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "cave",
+    "image": null
+  },
+  {
+    "name": "Grotte de Clamouse",
+    "lat": 43.68,
+    "lng": 3.552,
+    "location": "Saint-Jean-de-Fos, Hérault",
+    "website": "https://www.clamouse.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "cave",
+    "image": null
+  },
+  {
+    "name": "Grotte des Demoiselles",
+    "lat": 43.843,
+    "lng": 3.63,
+    "location": "Saint-Bauzille-de-Putois, Hérault",
+    "website": "http://www.grottedesdemoiselles.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "cave",
+    "image": null
+  },
+  {
+    "name": "Grotte de Rouffignac",
+    "lat": 45.033,
+    "lng": 0.983,
+    "location": "Rouffignac-Saint-Cernin-de-Reilhac, Dordogne",
+    "website": "https://www.grottederouffignac.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "cave",
+    "image": null
+  },
+  {
+    "name": "Grotte de Labeil",
+    "lat": 43.734,
+    "lng": 3.303,
+    "location": "Lauroux, Hérault",
+    "website": "https://www.grotte-de-labeil.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "cave",
+    "image": null
+  },
+  {
+    "name": "Grotte Pair-non-Pair",
+    "lat": 44.791,
+    "lng": -0.435,
+    "location": "Prignac-et-Marcamps, Gironde",
+    "website": "https://www.grotte-pair-non-pair.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "cave",
+    "image": null
+  },
+  {
+    "name": "Grotte Célestine",
+    "lat": 44.766,
+    "lng": -0.074,
+    "location": "Rauzan, Gironde",
+    "website": "https://www.grotte-celestine.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "cave",
+    "image": null
+  },
+  {
+    "name": "Gouffre d’Esparros",
+    "lat": 42.978,
+    "lng": 0.25,
+    "location": "Esparros, Hautes-Pyrénées",
+    "website": "https://www.gouffresparros.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "cave",
+    "image": null
+  },
+  {
+    "name": "GR 861 Via Garona",
+    "lat": 43.604,
+    "lng": 1.444,
+    "location": "Toulouse–Saint-Bertrand-de-Comminges",
+    "website": "https://www.via-garona.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "hiking_trail",
+    "image": null
+  },
+  {
+    "name": "GR 10 (Foix–Ax section)",
+    "lat": 42.966,
+    "lng": 1.607,
+    "location": "Ariège",
+    "website": "https://www.gr10.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "hiking_trail",
+    "image": null
+  },
+  {
+    "name": "Pic Saint-Loup ascent",
+    "lat": 43.78,
+    "lng": 3.862,
+    "location": "Hérault",
+    "website": "https://www.pic-saint-loup.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "hiking_trail",
+    "image": null
+  },
+  {
+    "name": "Cirque de Navacelles rim",
+    "lat": 43.861,
+    "lng": 3.48,
+    "location": "Gard/Hérault",
+    "website": "https://www.cirque-navacelles.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "hiking_trail",
+    "image": null
+  },
+  {
+    "name": "Lac du Salagou circuits",
+    "lat": 43.638,
+    "lng": 3.363,
+    "location": "Hérault",
+    "website": "https://www.lac-salagou.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "hiking_trail",
+    "image": null
+  },
+  {
+    "name": "GR 652 Vallée du Célé",
+    "lat": 44.62,
+    "lng": 1.829,
+    "location": "Lot",
+    "website": "https://www.gr-infos.com/gr652.htm",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "hiking_trail",
+    "image": null
+  },
+  {
+    "name": "Tour du Lac de Bouconne",
+    "lat": 43.65,
+    "lng": 1.188,
+    "location": "Haute-Garonne",
+    "website": "https://www.bouconne.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "hiking_trail",
+    "image": null
+  },
+  {
+    "name": "Mont Gargan loop",
+    "lat": 45.633,
+    "lng": 1.583,
+    "location": "Haute-Vienne",
+    "website": "https://www.tourisme-hautevienne.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "hiking_trail",
+    "image": null
+  },
+  {
+    "name": "Dune du Pilat ridge",
+    "lat": 44.589,
+    "lng": -1.213,
+    "location": "Gironde",
+    "website": "https://www.dunedupilat.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "hiking_trail",
+    "image": null
+  },
+  {
+    "name": "Canal du Midi Canalettes",
+    "lat": 43.554,
+    "lng": 1.477,
+    "location": "Haute-Garonne",
+    "website": "https://www.canal-du-midi.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "hiking_trail",
+    "image": null
+  },
+  {
+    "name": "Zoo African Safari",
+    "lat": 43.586,
+    "lng": 1.233,
+    "location": "Plaisance-du-Touch, Haute-Garonne",
+    "website": "https://www.zoo-africansafari.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "family_activity",
+    "image": null
+  },
+  {
+    "name": "Parc Animalier des Pyrénées",
+    "lat": 43.003,
+    "lng": -0.098,
+    "location": "Argelès-Gazost, Hautes-Pyrénées",
+    "website": "https://www.parc-animalier-pyrenees.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "family_activity",
+    "image": null
+  },
+  {
+    "name": "Montpellier Zoo – Parc Lunaret",
+    "lat": 43.639,
+    "lng": 3.864,
+    "location": "Montpellier, Hérault",
+    "website": "https://zoo.montpellier.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "family_activity",
+    "image": null
+  },
+  {
+    "name": "Parc Zoo du Reynou",
+    "lat": 45.779,
+    "lng": 1.208,
+    "location": "Le Vigen, Haute-Vienne",
+    "website": "https://www.parczooreynou.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "family_activity",
+    "image": null
+  },
+  {
+    "name": "Walygator Sud-Ouest",
+    "lat": 44.356,
+    "lng": 0.402,
+    "location": "Roquefort, Lot-et-Garonne",
+    "website": "https://www.walygatorparc.com/sud-ouest/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "family_activity",
+    "image": null
+  },
+  {
+    "name": "Aquarium du Limousin",
+    "lat": 45.835,
+    "lng": 1.263,
+    "location": "Limoges, Haute-Vienne",
+    "website": "https://www.aquariumdulimousin.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "family_activity",
+    "image": null
+  },
+  {
+    "name": "Parc Le Bournat",
+    "lat": 44.914,
+    "lng": 0.935,
+    "location": "Le Bugue, Dordogne",
+    "website": "https://www.parclebournat.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "family_activity",
+    "image": null
+  },
+  {
+    "name": "Aqualand Agen",
+    "lat": 44.209,
+    "lng": 0.446,
+    "location": "Roquefort, Lot-et-Garonne",
+    "website": "https://www.aqualand.fr/agen/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "family_activity",
+    "image": null
+  },
+  {
+    "name": "Galaxie Laser & Trampoline",
+    "lat": 44.015,
+    "lng": 1.349,
+    "location": "Montauban, Tarn-et-Garonne",
+    "website": "https://galaxie-montauban.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "family_activity",
+    "image": null
+  },
+  {
+    "name": "Planète Océan Montpellier",
+    "lat": 43.61,
+    "lng": 3.919,
+    "location": "Montpellier, Hérault",
+    "website": "https://planet-ocean.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "family_activity",
+    "image": null
+  },
+  {
+    "name": "Canoë le Moulin",
+    "lat": 43.874,
+    "lng": 3.692,
+    "location": "Saint-Bauzille-de-Putois, Hérault",
+    "website": "https://www.herault-canoe.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Canoë Rapido",
+    "lat": 43.731,
+    "lng": 3.552,
+    "location": "Saint-Guilhem-le-Désert, Hérault",
+    "website": "https://www.canoerapido.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Kayapuna",
+    "lat": 43.731,
+    "lng": 3.552,
+    "location": "Saint-Guilhem-le-Désert, Hérault",
+    "website": "https://www.kayapuna.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Vallée des Moulins Canoë",
+    "lat": 43.77,
+    "lng": 3.613,
+    "location": "Causse-de-la-Selle, Hérault",
+    "website": "https://www.valleedumoulin.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Kalapca Loisirs",
+    "lat": 44.466,
+    "lng": 1.7,
+    "location": "Bouziès, Lot",
+    "website": "https://www.kalapca.com/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Canoë Saint Cirq",
+    "lat": 44.466,
+    "lng": 1.7,
+    "location": "Saint-Cirq-Lapopie, Lot",
+    "website": "https://canoe-saint-cirq.com/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Canoë Le Répère",
+    "lat": 45.069,
+    "lng": 1.164,
+    "location": "Montignac, Dordogne",
+    "website": "https://www.lerepere-canoe.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Canoës Port-Sainte-Foy",
+    "lat": 44.849,
+    "lng": 0.201,
+    "location": "Port-Sainte-Foy, Dordogne",
+    "website": "https://www.canoe-france.com/port-sainte-foy/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Bordeaux Canoë",
+    "lat": 44.84,
+    "lng": -0.566,
+    "location": "Bordeaux, Gironde",
+    "website": "https://bordeauxcanoe.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Canoë L’Aventure Vienne",
+    "lat": 45.842,
+    "lng": 1.248,
+    "location": "Limoges, Haute-Vienne",
+    "website": "https://www.laventure87.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Cité de Carcassonne",
+    "lat": 43.213,
+    "lng": 2.351,
+    "location": "Carcassonne, Aude",
+    "website": "https://www.remparts-carcassonne.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Foix",
+    "lat": 42.965,
+    "lng": 1.607,
+    "location": "Foix, Ariège",
+    "website": "https://www.chateau-foix.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Montségur",
+    "lat": 42.873,
+    "lng": 1.824,
+    "location": "Montségur, Ariège",
+    "website": "https://www.montsegur.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Bonaguil",
+    "lat": 44.611,
+    "lng": 1.037,
+    "location": "Saint-Front-sur-Lémance, Lot-et-Garonne",
+    "website": "https://chateau-bonaguil.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Roquetaillade",
+    "lat": 44.505,
+    "lng": -0.34,
+    "location": "Mazères, Gironde",
+    "website": "https://roquetaillade.eu/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Puyguilhem",
+    "lat": 45.459,
+    "lng": 0.764,
+    "location": "Villars, Dordogne",
+    "website": "https://www.chateau-puyguilhem.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Biron",
+    "lat": 44.672,
+    "lng": 0.881,
+    "location": "Biron, Dordogne",
+    "website": "https://www.chateaudebiron.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Foissac",
+    "lat": 44.6,
+    "lng": 2.08,
+    "location": "Foissac, Aveyron",
+    "website": "https://www.grotte-foissac.com/chateau",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Tour Jean XXII (Cahors)",
+    "lat": 44.447,
+    "lng": 1.441,
+    "location": "Cahors, Lot",
+    "website": "https://www.tourisme-cahors.com/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Rochechouart",
+    "lat": 45.825,
+    "lng": 0.82,
+    "location": "Rochechouart, Haute-Vienne",
+    "website": "https://www.musee-lart-comtemporaine.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Jardin des Plantes de Montpellier",
+    "lat": 43.613,
+    "lng": 3.87,
+    "location": "Montpellier, Hérault",
+    "website": "https://jardin-plantes.mnhn.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Jardin Japonais Pierre Baudis",
+    "lat": 43.615,
+    "lng": 1.43,
+    "location": "Toulouse, Haute-Garonne",
+    "website": "https://www.toulouse.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Jardin Public Bordeaux",
+    "lat": 44.842,
+    "lng": -0.574,
+    "location": "Bordeaux, Gironde",
+    "website": "https://www.bordeaux.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Parc Floral de La Bouichère",
+    "lat": 43.049,
+    "lng": 2.221,
+    "location": "Limoux, Aude",
+    "website": "https://www.parcflorallabouichere.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Les Jardins de l'Imaginaire",
+    "lat": 45.131,
+    "lng": 1.304,
+    "location": "Terrasson-Lavilledieu, Dordogne",
+    "website": "https://www.jardins-imaginaire.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Parc du Château de Méric",
+    "lat": 43.604,
+    "lng": 3.87,
+    "location": "Montpellier, Hérault",
+    "website": "https://www.montpellier.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Jardin de la Daurade",
+    "lat": 43.601,
+    "lng": 1.44,
+    "location": "Toulouse, Haute-Garonne",
+    "website": "https://www.toulouse.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Parc Bordelais",
+    "lat": 44.848,
+    "lng": -0.58,
+    "location": "Bordeaux, Gironde",
+    "website": "https://www.bordeaux.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Arboretum de La Jonchère",
+    "lat": 45.952,
+    "lng": 1.51,
+    "location": "La Jonchère-Saint-Maurice, Haute-Vienne",
+    "website": "https://www.tourisme-hautevienne.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Les Jardins de Sardy",
+    "lat": 44.845,
+    "lng": 0.102,
+    "location": "Vélines, Dordogne",
+    "website": "https://jardinsdesardy.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Cité de l'Espace",
+    "lat": 43.586,
+    "lng": 1.493,
+    "location": "Toulouse, Haute-Garonne",
+    "website": "https://www.cite-espace.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Aeroscopia",
+    "lat": 43.635,
+    "lng": 1.371,
+    "location": "Blagnac, Haute-Garonne",
+    "website": "https://www.musee-aeroscopia.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "L'Envol des Pionniers",
+    "lat": 43.586,
+    "lng": 1.473,
+    "location": "Toulouse, Haute-Garonne",
+    "website": "https://www.lenvol-des-pionniers.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Musée Fabre",
+    "lat": 43.61,
+    "lng": 3.88,
+    "location": "Montpellier, Hérault",
+    "website": "https://museefabre.montpellier3m.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Bassins de Lumières",
+    "lat": 44.872,
+    "lng": -0.533,
+    "location": "Bordeaux, Gironde",
+    "website": "https://www.bassins-lumieres.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Musée du Vin et du Négoce",
+    "lat": 44.846,
+    "lng": -0.57,
+    "location": "Bordeaux, Gironde",
+    "website": "https://www.museeduvinbordeaux.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Musée des Beaux-Arts de Limoges",
+    "lat": 45.836,
+    "lng": 1.264,
+    "location": "Limoges, Haute-Vienne",
+    "website": "https://www.museebal.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Musée National Adrien Dubouché",
+    "lat": 45.832,
+    "lng": 1.256,
+    "location": "Limoges, Haute-Vienne",
+    "website": "https://www.musee-adriendubouche.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Musée de l'Inquisition",
+    "lat": 43.205,
+    "lng": 2.364,
+    "location": "Carcassonne, Aude",
+    "website": "https://www.musee-inquisition-carcassonne.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Musée de la Romanité",
+    "lat": 43.84,
+    "lng": 4.358,
+    "location": "Nîmes, Gard",
+    "website": "https://museedelaromanite.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "museum",
+    "image": null
   }
 ]
