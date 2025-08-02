@@ -82,6 +82,7 @@ let visitCampsiteMarkers = {}; // Individual markers for visit campsites
 let poiMarkers = {}; // Store POI markers by category
 let distanceCircles = []; // Store distance circles for visualization
 let currentInfoWindow = null; // Store current open info window
+let allMarkers = {}; // Store all markers with their info windows for gallery interaction
 
 /* ------------ reusable route plotting function ------------ */
 function plotRoute(map, origin, destination, waypoints = [], lineColor = "#0000ff", lineWeight = 4) {
@@ -143,6 +144,9 @@ function loadCampsites(map, bounds, campsiteUrl = "campsites.json", markerColor 
             strokeWeight: 2,
           },
         });
+        
+        // Store campsite data on marker for gallery access
+        marker.campsiteData = cs;
         // Create info window content with image if available
         let content = `<strong>${cs.name}</strong><br>${cs.location}<br>${cs.percent} % of trip, ${cs.detour}<br>`;
         content += `<a href="${cs.website}" target="_blank">Website</a>`;
@@ -155,6 +159,10 @@ function loadCampsites(map, bounds, campsiteUrl = "campsites.json", markerColor 
         const iw = new google.maps.InfoWindow({
           content: content,
         });
+        
+        // Store info window reference on marker for gallery access
+        marker.infoWindow = iw;
+        
         marker.addListener("click", () => {
           // Close previous info window if open
           if (currentInfoWindow) {
@@ -267,6 +275,9 @@ function loadPOIs(map, bounds, poiUrl = "poi.json") {
           },
         });
         
+        // Store POI data on marker for gallery access
+        marker.poiData = poi;
+        
         // Create info window content with image if available
         let content = `<strong>${poi.name}</strong><br>${poi.location}<br>`;
         content += `<em>Category: ${config.name}</em><br>`;
@@ -294,6 +305,10 @@ function loadPOIs(map, bounds, poiUrl = "poi.json") {
         const iw = new google.maps.InfoWindow({
           content: content,
         });
+        
+        // Store info window reference on marker for gallery access
+        marker.infoWindow = iw;
+        
         marker.addListener("click", () => {
           // Close previous info window if open
           if (currentInfoWindow) {
@@ -352,6 +367,8 @@ function togglePOICategory(category, visible) {
       marker.setMap(visible ? mapInstance : null);
     });
   }
+  // Update gallery when POI categories change
+  setTimeout(updatePhotoGallery, 100);
 }
 
 function toggleCampsites(campsiteType, visible) {
@@ -362,6 +379,8 @@ function toggleCampsites(campsiteType, visible) {
   }
   // Reapply distance filter when campsites are toggled
   applyDistanceFilter();
+  // Update gallery when campsites change
+  setTimeout(updatePhotoGallery, 100);
 }
 
 function createCategoryCheckboxes() {
@@ -576,6 +595,9 @@ function applyDistanceFilter() {
   
   // Update distance circles
   updateDistanceCircles();
+  
+  // Update gallery when distance filter changes
+  setTimeout(updatePhotoGallery, 100);
 }
 
 function zoomToVisitCampsites() {
@@ -729,6 +751,9 @@ function initMap() {
   
   // Set up toggle listeners
   setupToggleListeners();
+  
+  // Initial gallery update
+  setTimeout(updatePhotoGallery, 1000);
 }
 
 /* ------------ load Google Maps JS with key from URI ------ */
@@ -869,4 +894,88 @@ function openFullscreenImage(imageUrl, title) {
   
   // Prevent body scroll when fullscreen is open
   document.body.style.overflow = 'hidden';
+}
+
+/* ------------ photo gallery functions ------------ */
+function updatePhotoGallery() {
+  const gallery = document.getElementById('photo-gallery');
+  const visibleItems = [];
+  
+  // Collect visible POI markers with images
+  Object.keys(poiMarkers).forEach(category => {
+    const categoryMarkers = poiMarkers[category];
+    categoryMarkers.forEach(marker => {
+      if (marker.getMap() && marker.poiData && marker.poiData.image) {
+        visibleItems.push({
+          type: 'poi',
+          marker: marker,
+          data: marker.poiData,
+          title: marker.poiData.name
+        });
+      }
+    });
+  });
+  
+  // Collect visible campsite markers with images
+  Object.keys(campsiteMarkers).forEach(type => {
+    const typeMarkers = campsiteMarkers[type];
+    if (Array.isArray(typeMarkers)) {
+      typeMarkers.forEach(marker => {
+        if (marker.getMap() && marker.campsiteData && marker.campsiteData.image) {
+          visibleItems.push({
+            type: 'campsite',
+            marker: marker,
+            data: marker.campsiteData,
+            title: marker.campsiteData.name
+          });
+        }
+      });
+    }
+  });
+  
+  // Clear gallery
+  gallery.innerHTML = '';
+  
+  if (visibleItems.length === 0) {
+    gallery.innerHTML = '<div class="gallery-empty">No images to display - adjust filters to see photos</div>';
+    return;
+  }
+  
+  // Create gallery items
+  visibleItems.forEach(item => {
+    const galleryItem = document.createElement('div');
+    galleryItem.className = 'gallery-item';
+    galleryItem.style.position = 'relative';
+    
+    const img = document.createElement('img');
+    img.src = item.data.image;
+    img.alt = item.title;
+    
+    const title = document.createElement('div');
+    title.className = 'item-title';
+    title.textContent = item.title;
+    
+    galleryItem.appendChild(img);
+    galleryItem.appendChild(title);
+    
+    // Add click handler to center map and open info window
+    galleryItem.addEventListener('click', () => {
+      // Center map on marker
+      mapInstance.panTo(item.marker.getPosition());
+      mapInstance.setZoom(Math.max(mapInstance.getZoom(), 12));
+      
+      // Open info window
+      if (currentInfoWindow) {
+        currentInfoWindow.close();
+      }
+      
+      // Find and open the marker's info window
+      if (item.marker.infoWindow) {
+        item.marker.infoWindow.open(mapInstance, item.marker);
+        currentInfoWindow = item.marker.infoWindow;
+      }
+    });
+    
+    gallery.appendChild(galleryItem);
+  });
 } 
