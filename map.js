@@ -603,7 +603,7 @@ function zoomToVisitCampsites() {
   });
   
   // Add padding to include distance circles
-  const maxDistance = parseFloat(document.getElementById('distance-filter').value) || 50;
+  const maxDistance = parseFloat(document.getElementById('distance-filter').value) || 150;
   const padding = maxDistance * 0.01; // Convert km to degrees (approximate)
   
   // Extend bounds by padding

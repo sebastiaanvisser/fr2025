@@ -1,0 +1,5 @@
+.google
+
+# POI image processing files
+poi_with_images.json
+poi_with_images.json.backup-*

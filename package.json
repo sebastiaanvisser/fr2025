@@ -1,0 +1,19 @@
+{
+  "name": "google-image-search",
+  "version": "1.0.0",
+  "description": "Google Custom Search API image search script",
+  "main": "google_image_search.js",
+  "scripts": {
+    "start": "node google_image_search.js"
+  },
+  "dependencies": {},
+  "keywords": [
+    "google",
+    "image",
+    "search",
+    "api",
+    "custom-search"
+  ],
+  "author": "",
+  "license": "MIT"
+}
