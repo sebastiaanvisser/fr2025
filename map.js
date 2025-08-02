@@ -683,6 +683,7 @@ function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 6,
     center: { lat: 47.5, lng: 4.5 },
+    gestureHandling: "greedy", // Single-finger pan and zoom on mobile
   });
 
   const bounds = new google.maps.LatLngBounds();
