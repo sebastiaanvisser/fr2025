@@ -556,6 +556,36 @@ function applyDistanceFilter() {
   updateDistanceCircles();
 }
 
+function zoomToVisitCampsites() {
+  if (!mapInstance || !visitCampsiteMarkers) return;
+  
+  // Get all visit campsite positions
+  const visitCampsitePositions = Object.values(visitCampsiteMarkers)
+    .filter(marker => marker && marker.getMap()) // Only visible markers
+    .map(marker => marker.getPosition());
+  
+  if (visitCampsitePositions.length === 0) return;
+  
+  // Create bounds that include all visit campsites
+  const bounds = new google.maps.LatLngBounds();
+  visitCampsitePositions.forEach(position => {
+    bounds.extend(position);
+  });
+  
+  // Add padding to include distance circles
+  const maxDistance = parseFloat(document.getElementById('distance-filter').value) || 50;
+  const padding = maxDistance * 0.01; // Convert km to degrees (approximate)
+  
+  // Extend bounds by padding
+  const ne = bounds.getNorthEast();
+  const sw = bounds.getSouthWest();
+  bounds.extend(new google.maps.LatLng(ne.lat() + padding, ne.lng() + padding));
+  bounds.extend(new google.maps.LatLng(sw.lat() - padding, sw.lng() - padding));
+  
+  // Fit map to bounds
+  mapInstance.fitBounds(bounds);
+}
+
 function setupToggleListeners() {
   // Route toggles
   document.getElementById('toggle-east-route').addEventListener('change', (e) => {
@@ -577,6 +607,11 @@ function setupToggleListeners() {
   
   // Distance filter listeners
   document.getElementById('distance-filter').addEventListener('input', applyDistanceFilter);
+  
+  // Zoom to visit campsites button
+  document.getElementById('zoom-to-visit-campsites').addEventListener('click', () => {
+    zoomToVisitCampsites();
+  });
 }
 
 /* ------------ main map initialiser (called by Google) ---- */
