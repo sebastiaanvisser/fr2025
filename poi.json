@@ -1,0 +1,406 @@
+[
+  {
+    "name": "AAGAC Adventure Park",
+    "lat": 44.218716,
+    "lng": 1.965995,
+    "location": "Najac, Aveyron",
+    "website": "https://en.bastides-gorges-aveyron.fr/activities/aagac-adventure-park-escalarbre-tree-climbing/",
+    "nearCampsite": "Camping La Prade",
+    "category": "climbing_forest",
+    "minAge": 3,
+    "image": null
+  },
+  {
+    "name": "Cap Nature Parc de Loisirs Figeac",
+    "lat": 44.61,
+    "lng": 2.04,
+    "location": "Figeac, Lot",
+    "website": "https://capnature.eu/figeac/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "climbing_forest",
+    "minAge": 2,
+    "image": null
+  },
+  {
+    "name": "Airparc Périgord",
+    "lat": 44.824982,
+    "lng": 1.100135,
+    "location": "Saint-Vincent-de-Cosse, Dordogne",
+    "website": "https://www.airparc-perigord.com/language/en/welcome/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "climbing_forest",
+    "minAge": 3,
+    "image": null
+  },
+  {
+    "name": "La Forêt des Écureuils",
+    "lat": 44.872397,
+    "lng": 1.280497,
+    "location": "Saint-Vincent-le-Paluel (Sarlat), Dordogne",
+    "website": "https://laforetdesecureuils.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "climbing_forest",
+    "minAge": 3,
+    "image": null
+  },
+  {
+    "name": "Albi (UNESCO Episcopal City)",
+    "lat": 43.925,
+    "lng": 2.148,
+    "location": "Tarn",
+    "website": "https://www.albi-tourisme.fr/en/",
+    "nearCampsite": "Camping La Prade",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Cordes-sur-Ciel",
+    "lat": 44.064,
+    "lng": 1.946,
+    "location": "Tarn",
+    "website": "https://www.la-toscane-occitane.com/en/commerce-service/office-de-tourisme-accueil-de-cordes-sur-ciel/",
+    "nearCampsite": "Camping La Prade",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Najac (Medieval Bastide)",
+    "lat": 44.221,
+    "lng": 1.967,
+    "location": "Aveyron",
+    "website": "https://en.bastides-gorges-aveyron.fr/decouvrir/najac/",
+    "nearCampsite": "Camping La Prade",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Conques",
+    "lat": 44.609,
+    "lng": 2.394,
+    "location": "Aveyron",
+    "website": "https://www.tourisme-conques.fr/en/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Figeac",
+    "lat": 44.608,
+    "lng": 2.031,
+    "location": "Lot",
+    "website": "https://en.tourisme-figeac.com/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Aurillac",
+    "lat": 44.926,
+    "lng": 2.445,
+    "location": "Cantal",
+    "website": "https://www.aurillac-tourisme.com/en/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Sarlat-la-Canéda",
+    "lat": 44.889,
+    "lng": 1.216,
+    "location": "Dordogne",
+    "website": "https://www.sarlat-tourisme.com/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Domme",
+    "lat": 44.802,
+    "lng": 1.215,
+    "location": "Dordogne",
+    "website": "https://www.domme-tourisme.com/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "La Roque-Gageac",
+    "lat": 44.823,
+    "lng": 1.182,
+    "location": "Dordogne",
+    "website": "https://www.laroquegageac.com/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "old_city",
+    "image": null
+  },
+  {
+    "name": "Gouffre de Padirac",
+    "lat": 44.844,
+    "lng": 1.754,
+    "location": "Lot",
+    "website": "https://www.gouffre-de-padirac.com/en/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "cave",
+    "image": null
+  },
+  {
+    "name": "Grotte de Pech Merle",
+    "lat": 44.509,
+    "lng": 1.647,
+    "location": "Lot",
+    "website": "https://www.pechmerle.com/en/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "cave",
+    "image": null
+  },
+  {
+    "name": "Grotte de Lascaux IV",
+    "lat": 45.053,
+    "lng": 1.175,
+    "location": "Dordogne",
+    "website": "https://www.lascaux.fr/en",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "cave",
+    "image": null
+  },
+  {
+    "name": "GR 65 (Camino de Santiago)",
+    "lat": 44.221,
+    "lng": 1.967,
+    "location": "Najac, Aveyron",
+    "website": "https://www.gr-infos.com/gr65.htm",
+    "nearCampsite": "Camping La Prade",
+    "category": "hiking_trail",
+    "image": null
+  },
+  {
+    "name": "GR 46 (Lot Valley)",
+    "lat": 44.6467,
+    "lng": 2.456,
+    "location": "Vieillevie, Cantal",
+    "website": "https://www.gr-infos.com/gr46.htm",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "hiking_trail",
+    "image": null
+  },
+  {
+    "name": "GR 6 (Dordogne Valley)",
+    "lat": 44.8258,
+    "lng": 1.2244,
+    "location": "Vitrac, Dordogne",
+    "website": "https://www.gr-infos.com/gr6.htm",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "hiking_trail",
+    "image": null
+  },
+  {
+    "name": "Parc Animalier de Gramat",
+    "lat": 44.779,
+    "lng": 1.724,
+    "location": "Lot",
+    "website": "https://www.gramat-parc-animalier.com/en/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "family_activity",
+    "image": null
+  },
+  {
+    "name": "Aquarium du Périgord Noir",
+    "lat": 44.889,
+    "lng": 1.216,
+    "location": "Sarlat, Dordogne",
+    "website": "https://www.aquariumduperigordnoir.fr/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "family_activity",
+    "image": null
+  },
+  {
+    "name": "AAGAC Outdoor Sports Base",
+    "lat": 44.2203,
+    "lng": 1.9684,
+    "location": "Najac, Aveyron",
+    "website": "https://en.bastides-gorges-aveyron.fr/activites/aagac-canoe-kayak/",
+    "nearCampsite": "Camping La Prade",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Evasion Canoë",
+    "lat": 44.1489,
+    "lng": 1.7436,
+    "location": "Saint-Antonin-Noble-Val, Tarn-et-Garonne",
+    "website": "https://www.tourisme-tarnetgaronne.fr/en/offers/evasion-canoe-saint-antonin-noble-val-en-2357896/",
+    "nearCampsite": "Camping La Prade",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Escapad'O Canoë-Kayak",
+    "lat": 44.0722,
+    "lng": 1.7144,
+    "location": "Penne, Tarn",
+    "website": "https://www.escapado-penne.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "ASVOLT – Base Canoë Nature",
+    "lat": 44.6467,
+    "lng": 2.456,
+    "location": "Vieillevie, Cantal (Lot valley)",
+    "website": "https://www.asvolt.fr/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Passion Aventure (Célé river)",
+    "lat": 44.5531,
+    "lng": 1.7716,
+    "location": "Marcilhac-sur-Célé, Lot",
+    "website": "https://www.location-canoe-cele.com/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "canoe",
+    "image": null
+  },
+  {
+    "name": "Canoës Loisirs Vitrac",
+    "lat": 44.8258,
+    "lng": 1.2244,
+    "location": "Vitrac / Domme, Dordogne",
+    "website": "https://canoes-loisirs.com/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "canoe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Ch%C3%A2teau_de_Beynac_-_20090926.jpg"
+  },
+  {
+    "name": "Canoë Vacances",
+    "lat": 44.8153,
+    "lng": 1.1816,
+    "location": "La Roque-Gageac, Dordogne",
+    "website": "https://www.canoevacances.com/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "canoe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Canoe_roque_gageac.jpg"
+  },
+  {
+    "name": "Canoës Découverte",
+    "lat": 44.8306,
+    "lng": 1.153,
+    "location": "Vézac (Castelnaud / Beynac sector), Dordogne",
+    "website": "https://www.canoes-decouverte.fr/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "canoe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Canoas_en_Castelnaud-la-Chapelle.jpg"
+  },
+  {
+    "name": "Château de Najac",
+    "lat": 44.222,
+    "lng": 1.9689,
+    "location": "Najac, Aveyron",
+    "website": "https://www.tourisme-aveyron.com/en/diffusio/sites-visit/forteresse-royale-de-najac-najac_TFO18778650928",
+    "nearCampsite": "Camping La Prade",
+    "category": "castle",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Castle_of_Najac_26.jpg/800px-Castle_of_Najac_26.jpg"
+  },
+  {
+    "name": "Château de Penne",
+    "lat": 44.0722,
+    "lng": 1.7144,
+    "location": "Penne, Tarn",
+    "website": "https://www.chateau-penne.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Brousse-le-Château",
+    "lat": 43.9959,
+    "lng": 2.5892,
+    "location": "Brousse-le-Château, Aveyron",
+    "website": "https://www.tourisme-aveyron.com/en/diffusio/sites-visit/chateau-de-brousse-brousse-le-chateau_TFO18694574987",
+    "nearCampsite": "Camping La Prade",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Mauriac",
+    "lat": 43.9458,
+    "lng": 1.9084,
+    "location": "Senouillac, Tarn",
+    "website": "https://chateaudemauriac.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Valon",
+    "lat": 44.7903,
+    "lng": 2.5999,
+    "location": "Lacroix-Barrez, Aveyron",
+    "website": "https://www.tourisme-en-aubrac.com/en/destination/villages-territoires/valon-et-son-chateau/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château d'Anjony",
+    "lat": 45.0623,
+    "lng": 2.4657,
+    "location": "Tournemire, Cantal",
+    "website": "https://www.anjony.fr/en/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Conros",
+    "lat": 44.8794,
+    "lng": 2.4208,
+    "location": "Arpajon-sur-Cère, Cantal",
+    "website": "https://www.chateau-conros.com",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Pesteils",
+    "lat": 45.0543,
+    "lng": 2.5579,
+    "location": "Polminhac, Cantal",
+    "website": "https://www.chateau-pesteils-cantal.com/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "castle",
+    "image": null
+  },
+  {
+    "name": "Château de Beynac",
+    "lat": 44.8388,
+    "lng": 1.1463,
+    "location": "Beynac-et-Cazenac, Dordogne",
+    "website": "https://chateau-beynac.com/?lang=en",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "castle",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ch%C3%A2teau_de_Beynac_-_20090926.jpg/800px-Ch%C3%A2teau_de_Beynac_-_20090926.jpg"
+  },
+  {
+    "name": "Château de Castelnaud",
+    "lat": 44.8206,
+    "lng": 1.1459,
+    "location": "Castelnaud-la-Chapelle, Dordogne",
+    "website": "https://castelnaud.com/?lang=en",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "castle",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Castel_of_castelnaud_la_chapelle.JPG/800px-Castel_of_castelnaud_la_chapelle.JPG"
+  },
+  {
+    "name": "Château des Milandes",
+    "lat": 44.8241,
+    "lng": 1.1127,
+    "location": "Castelnaud-la-Chapelle, Dordogne",
+    "website": "https://www.milandes.com/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "castle",
+    "image": null
+  }
+]

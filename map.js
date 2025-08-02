@@ -4,6 +4,56 @@ const WAYPOINTS = [
   { location: "Dijon, France", stopover: true },
 ];
 
+/* ------------ category configuration ------------ */
+let CATEGORY_CONFIG = null;
+
+function initializeCategoryConfig() {
+  CATEGORY_CONFIG = {
+    castle: {
+      name: "Castles",
+      color: "#8B4513", // brown
+      shape: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+      scale: 6
+    },
+    canoe: {
+      name: "Canoe Locations",
+      color: "#FFD700", // yellow
+      shape: google.maps.SymbolPath.CIRCLE,
+      scale: 7
+    },
+    climbing_forest: {
+      name: "Climbing & Forest Parks",
+      color: "#228B22", // forest green
+      shape: google.maps.SymbolPath.CIRCLE,
+      scale: 8
+    },
+    old_city: {
+      name: "Historic Cities",
+      color: "#800080", // purple
+      shape: google.maps.SymbolPath.CIRCLE,
+      scale: 8
+    },
+    cave: {
+      name: "Caves & Grottos",
+      color: "#A0522D", // sienna
+      shape: google.maps.SymbolPath.CIRCLE,
+      scale: 8
+    },
+    hiking_trail: {
+      name: "Hiking Trails",
+      color: "#32CD32", // lime green
+      shape: google.maps.SymbolPath.CIRCLE,
+      scale: 8
+    },
+    family_activity: {
+      name: "Family Activities",
+      color: "#FF69B4", // hot pink
+      shape: google.maps.SymbolPath.CIRCLE,
+      scale: 8
+    }
+  };
+}
+
 /* ------------ global variables for toggling ------------ */
 let mapInstance = null;
 let boundsInstance = null;
@@ -17,8 +67,7 @@ let campsiteMarkers = {
   visit: []
 };
 let visitCampsiteMarkers = {}; // Individual markers for visit campsites
-let castleMarkers = []; // Store castle markers for distance filtering
-let canoeMarkers = []; // Store canoe markers for distance filtering
+let poiMarkers = {}; // Store POI markers by category
 let distanceCircles = []; // Store distance circles for visualization
 
 /* ------------ reusable route plotting function ------------ */
@@ -152,83 +201,50 @@ function calculateDistance(lat1, lng1, lat2, lng2) {
   return R * c; // Distance in kilometers
 }
 
-/* ------------ load castles function ------------ */
-function loadCastles(map, bounds, castlesUrl = "castles.json") {
-  return fetch(castlesUrl)
+/* ------------ load POIs function ------------ */
+function loadPOIs(map, bounds, poiUrl = "poi.json") {
+  return fetch(poiUrl)
     .then((r) => r.json())
-    .then((castles) => {
-      castles.forEach((castle) => {
+    .then((pois) => {
+      // Initialize category markers
+      Object.keys(CATEGORY_CONFIG).forEach(category => {
+        poiMarkers[category] = [];
+      });
+      
+      pois.forEach((poi) => {
+        const category = poi.category;
+        const config = CATEGORY_CONFIG[category];
+        
+        if (!config) {
+          console.warn(`Unknown category: ${category}`);
+          return;
+        }
+        
         const marker = new google.maps.Marker({
-          position: { lat: castle.lat, lng: castle.lng },
+          position: { lat: poi.lat, lng: poi.lng },
           map,
-          title: castle.name,
+          title: poi.name,
           icon: {
-            path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
-            scale: 6,
-            fillColor: "#8B4513", // brown color
+            path: config.shape,
+            scale: config.scale,
+            fillColor: config.color,
             fillOpacity: 1,
             strokeColor: "#ffffff",
-            strokeWeight: 1,
-            rotation: 0, // pointing up
-          },
-        });
-        
-        // Create info window content with image if available
-        let content = `<strong>${castle.name}</strong><br>${castle.location}<br>`;
-        if (castle.nearCampsite) {
-          content += `Near: ${castle.nearCampsite}<br>`;
-        }
-        if (castle.website) {
-          content += `<a href="${castle.website}" target="_blank">Website</a><br>`;
-        }
-        if (castle.image) {
-          content += `<img src="${castle.image}" alt="${castle.name}" style="max-width:200px;max-height:150px;margin-top:5px;">`;
-        }
-        
-        const iw = new google.maps.InfoWindow({
-          content: content,
-        });
-        marker.addListener("click", () => iw.open(map, marker));
-        bounds.extend(marker.getPosition());
-        castleMarkers.push(marker); // Store for distance filtering
-      });
-      return castles; // Return castles for potential future use
-    })
-    .catch((error) => {
-      console.error("Failed to load castles:", error);
-    });
-}
-
-/* ------------ load canoe locations function ------------ */
-function loadCanoeLocations(map, bounds, canoeUrl = "canoe.json") {
-  return fetch(canoeUrl)
-    .then((r) => r.json())
-    .then((canoeLocations) => {
-      canoeLocations.forEach((canoe) => {
-        const marker = new google.maps.Marker({
-          position: { lat: canoe.lat, lng: canoe.lng },
-          map,
-          title: canoe.name,
-          icon: {
-            path: google.maps.SymbolPath.CIRCLE,
-            scale: 7,
-            fillColor: "#FFD700", // yellow color
-            fillOpacity: 1,
-            strokeColor: "#FF8C00", // dark orange border
             strokeWeight: 2,
+            rotation: config.shape === google.maps.SymbolPath.FORWARD_CLOSED_ARROW ? 0 : undefined,
           },
         });
         
         // Create info window content with image if available
-        let content = `<strong>${canoe.name}</strong><br>${canoe.location}<br>`;
-        if (canoe.nearCampsite) {
-          content += `Near: ${canoe.nearCampsite}<br>`;
+        let content = `<strong>${poi.name}</strong><br>${poi.location}<br>`;
+        if (poi.nearCampsite) {
+          content += `Near: ${poi.nearCampsite}<br>`;
         }
-        if (canoe.website) {
-          content += `<a href="${canoe.website}" target="_blank">Website</a><br>`;
+        if (poi.website) {
+          content += `<a href="${poi.website}" target="_blank">Website</a><br>`;
         }
-        if (canoe.image) {
-          content += `<img src="${canoe.image}" alt="${canoe.name}" style="max-width:200px;max-height:150px;margin-top:5px;">`;
+        if (poi.image) {
+          content += `<img src="${poi.image}" alt="${poi.name}" style="max-width:200px;max-height:150px;margin-top:5px;">`;
         }
         
         const iw = new google.maps.InfoWindow({
@@ -236,12 +252,18 @@ function loadCanoeLocations(map, bounds, canoeUrl = "canoe.json") {
         });
         marker.addListener("click", () => iw.open(map, marker));
         bounds.extend(marker.getPosition());
-        canoeMarkers.push(marker); // Store for distance filtering
+        
+        // Store marker by category
+        poiMarkers[category].push(marker);
       });
-      return canoeLocations; // Return canoe locations for potential future use
+      
+      // Create dynamic category checkboxes
+      createCategoryCheckboxes();
+      
+      return pois;
     })
     .catch((error) => {
-      console.error("Failed to load canoe locations:", error);
+      console.error("Failed to load POIs:", error);
     });
 }
 
@@ -249,6 +271,14 @@ function loadCanoeLocations(map, bounds, canoeUrl = "canoe.json") {
 function toggleRoute(routeType, visible) {
   if (routeRenderers[routeType]) {
     routeRenderers[routeType].setMap(visible ? mapInstance : null);
+  }
+}
+
+function togglePOICategory(category, visible) {
+  if (poiMarkers[category]) {
+    poiMarkers[category].forEach(marker => {
+      marker.setMap(visible ? mapInstance : null);
+    });
   }
 }
 
@@ -260,6 +290,42 @@ function toggleCampsites(campsiteType, visible) {
   }
   // Reapply distance filter when campsites are toggled
   applyDistanceFilter();
+}
+
+function createCategoryCheckboxes() {
+  const container = document.getElementById('poi-categories-list');
+  if (!container) return;
+  
+  container.innerHTML = ''; // Clear existing content
+  
+  Object.entries(CATEGORY_CONFIG).forEach(([category, config]) => {
+    const label = document.createElement('label');
+    
+    // Create icon element
+    const icon = document.createElement('span');
+    icon.style.cssText = `
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: ${config.shape === google.maps.SymbolPath.CIRCLE ? '50%' : '0'};
+      background-color: ${config.color};
+      border: 2px solid white;
+      margin-right: 8px;
+      vertical-align: middle;
+    `;
+    
+    label.innerHTML = `<input type="checkbox" id="toggle-${category}" checked> `;
+    label.appendChild(icon);
+    label.appendChild(document.createTextNode(config.name));
+    
+    // Add event listener for category toggle
+    const checkbox = label.querySelector('input');
+    checkbox.addEventListener('change', (e) => {
+      togglePOICategory(category, e.target.checked);
+    });
+    
+    container.appendChild(label);
+  });
 }
 
 function createVisitCampsiteCheckboxes(visitCampsites) {
@@ -291,11 +357,18 @@ function updateDistanceCircles() {
   distanceCircles = [];
   
   const maxDistance = parseFloat(document.getElementById('distance-filter').value);
-  const filterCastles = document.getElementById('filter-castles').checked;
-  const filterCanoe = document.getElementById('filter-canoe').checked;
+  
+  // Check if any POI categories are enabled for distance filtering
+  let hasActivePOICategories = false;
+  Object.keys(CATEGORY_CONFIG).forEach(category => {
+    const checkbox = document.getElementById(`toggle-${category}`);
+    if (checkbox && checkbox.checked) {
+      hasActivePOICategories = true;
+    }
+  });
   
   // Only show circles if distance filtering is active
-  if (!filterCastles && !filterCanoe) {
+  if (!hasActivePOICategories) {
     return;
   }
   
@@ -330,8 +403,6 @@ function updateDistanceCircles() {
 
 function applyDistanceFilter() {
   const maxDistance = parseFloat(document.getElementById('distance-filter').value);
-  const filterCastles = document.getElementById('filter-castles').checked;
-  const filterCanoe = document.getElementById('filter-canoe').checked;
   
   // Get all currently visible campsite positions
   const visibleCampsitePositions = [];
@@ -370,53 +441,32 @@ function applyDistanceFilter() {
     }
   });
   
-  // Filter castles
-  if (filterCastles) {
-    castleMarkers.forEach(marker => {
-      const markerPos = {
-        lat: marker.getPosition().lat(),
-        lng: marker.getPosition().lng()
-      };
-      
-      // Check if castle is within distance of ANY visible campsite
-      const isWithinDistance = visibleCampsitePositions.some(campsitePos => {
-        const distance = calculateDistance(
-          campsitePos.lat, campsitePos.lng,
-          markerPos.lat, markerPos.lng
-        );
-        return distance <= maxDistance;
+  // Filter all POI categories
+  Object.entries(poiMarkers).forEach(([category, markers]) => {
+    const checkbox = document.getElementById(`toggle-${category}`);
+    if (checkbox && checkbox.checked) {
+      markers.forEach(marker => {
+        const markerPos = {
+          lat: marker.getPosition().lat(),
+          lng: marker.getPosition().lng()
+        };
+        
+        // Check if POI is within distance of ANY visible campsite
+        const isWithinDistance = visibleCampsitePositions.some(campsitePos => {
+          const distance = calculateDistance(
+            campsitePos.lat, campsitePos.lng,
+            markerPos.lat, markerPos.lng
+          );
+          return distance <= maxDistance;
+        });
+        
+        marker.setMap(isWithinDistance ? mapInstance : null);
       });
-      
-      marker.setMap(isWithinDistance ? mapInstance : null);
-    });
-  } else {
-    // If castles filter is off, hide all castles
-    castleMarkers.forEach(marker => marker.setMap(null));
-  }
-  
-  // Filter canoe locations
-  if (filterCanoe) {
-    canoeMarkers.forEach(marker => {
-      const markerPos = {
-        lat: marker.getPosition().lat(),
-        lng: marker.getPosition().lng()
-      };
-      
-      // Check if canoe location is within distance of ANY visible campsite
-      const isWithinDistance = visibleCampsitePositions.some(campsitePos => {
-        const distance = calculateDistance(
-          campsitePos.lat, campsitePos.lng,
-          markerPos.lat, markerPos.lng
-        );
-        return distance <= maxDistance;
-      });
-      
-      marker.setMap(isWithinDistance ? mapInstance : null);
-    });
-  } else {
-    // If canoe filter is off, hide all canoe locations
-    canoeMarkers.forEach(marker => marker.setMap(null));
-  }
+    } else {
+      // If category filter is off, hide all markers in this category
+      markers.forEach(marker => marker.setMap(null));
+    }
+  });
   
   // Update distance circles
   updateDistanceCircles();
@@ -443,12 +493,13 @@ function setupToggleListeners() {
   
   // Distance filter listeners
   document.getElementById('distance-filter').addEventListener('input', applyDistanceFilter);
-  document.getElementById('filter-castles').addEventListener('change', applyDistanceFilter);
-  document.getElementById('filter-canoe').addEventListener('change', applyDistanceFilter);
 }
 
 /* ------------ main map initialiser (called by Google) ---- */
 function initMap() {
+  // Initialize category configuration after Google Maps is loaded
+  initializeCategoryConfig();
+  
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 6,
     center: { lat: 47.5, lng: 4.5 },
@@ -469,13 +520,10 @@ function initMap() {
   ];
   loadMultipleCampsites(map, bounds, campsiteConfigs);
 
-  /* ---- 2) load castles ---- */
-  loadCastles(map, bounds);
+  /* ---- 2) load POIs ---- */
+  loadPOIs(map, bounds);
 
-  /* ---- 3) load canoe locations ---- */
-  loadCanoeLocations(map, bounds);
-
-  /* ---- 4) plot the main route using the new function ---- */
+  /* ---- 3) plot the main route using the new function ---- */
   routeRenderers.east = plotRoute(
     map,
     "Utrecht, Netherlands",
@@ -485,7 +533,7 @@ function initMap() {
     4 // line weight
   );
 
-  /* ---- 5) plot alternative route via Paris ---- */
+  /* ---- 4) plot alternative route via Paris ---- */
   routeRenderers.west = plotRoute(
     map,
     "Utrecht, Netherlands",
