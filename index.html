@@ -166,7 +166,7 @@
       /* Tablet responsive design */
       @media (min-width: 769px) and (max-width: 1024px) {
         #sidebar {
-          transform: translateX(-100%);
+          transform: translateX(0);
           width: 300px;
         }
 
@@ -178,7 +178,7 @@
       /* Desktop design */
       @media (min-width: 1025px) {
         #sidebar {
-          transform: translateX(-100%);
+          transform: translateX(0);
           width: 320px;
         }
 
@@ -263,6 +263,12 @@
       document.addEventListener("DOMContentLoaded", function () {
         const hamburger = document.getElementById("hamburger");
         const sidebar = document.getElementById("sidebar");
+
+        // Set initial state based on screen size
+        if (window.innerWidth > 768) {
+          sidebar.classList.add("active");
+          hamburger.classList.add("active");
+        }
 
         hamburger.addEventListener("click", function () {
           hamburger.classList.toggle("active");

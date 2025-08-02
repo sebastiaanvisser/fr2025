@@ -50,6 +50,18 @@ function initializeCategoryConfig() {
       color: "#FF69B4", // hot pink
       shape: google.maps.SymbolPath.CIRCLE,
       scale: 8
+    },
+    museum: {
+      name: "Museums",
+      color: "#4169E1", // royal blue
+      shape: google.maps.SymbolPath.CIRCLE,
+      scale: 8
+    },
+    garden: {
+      name: "Gardens & Parks",
+      color: "#90EE90", // light green
+      shape: google.maps.SymbolPath.CIRCLE,
+      scale: 8
     }
   };
 }

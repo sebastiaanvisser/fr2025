@@ -402,5 +402,256 @@
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "castle",
     "image": null
+  },
+  {
+    "name": "Les Jardins des Martels",
+    "lat": 43.7496,
+    "lng": 1.7863,
+    "location": "Giroussens, Tarn",
+    "website": "https://www.jardinsdesmartels.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Jardin des Paradis",
+    "lat": 44.064,
+    "lng": 1.951,
+    "location": "Cordes-sur-Ciel, Tarn",
+    "website": "https://www.la-toscane-occitane.com/en/visiter/parcs-et-jardins/le-jardin-des-paradis/",
+    "nearCampsite": "Camping La Prade",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Jardins de Marqueyssac",
+    "lat": 44.8256,
+    "lng": 1.1647,
+    "location": "Vézac, Dordogne",
+    "website": "https://www.marqueyssac.com/?lang=en",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Jardins d’Eyrignac",
+    "lat": 45.0525,
+    "lng": 1.2492,
+    "location": "Salignac-Eyvigues, Dordogne",
+    "website": "https://www.eyrignac.com/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Jardins Panoramiques de Limeuil",
+    "lat": 44.8856,
+    "lng": 0.8899,
+    "location": "Limeuil, Dordogne",
+    "website": "https://www.jardins-panoramiques-limeuil.com/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Les Jardins de Colette",
+    "lat": 45.1831,
+    "lng": 1.4567,
+    "location": "Varetz, Corrèze",
+    "website": "https://www.lesjardinsdecolette.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Jardins du Château de la Treyne",
+    "lat": 44.8494,
+    "lng": 1.5253,
+    "location": "Lacave, Lot",
+    "website": "https://www.chateaudelatreyne.com/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Parc Rochegude",
+    "lat": 43.9312,
+    "lng": 2.1468,
+    "location": "Albi, Tarn",
+    "website": "https://www.albi-tourisme.fr/en/parc-rochegude",
+    "nearCampsite": "Camping La Prade",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Le Jardin des Bêtes (animal & garden park)",
+    "lat": 44.0486,
+    "lng": 2.1258,
+    "location": "Le Garric, Tarn",
+    "website": "https://www.lejardindesbetes.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Les Jardins Secrets de Cahors",
+    "lat": 44.446,
+    "lng": 1.436,
+    "location": "Cahors, Lot",
+    "website": "https://www.tourisme-cahors.com/en/jardins-secrets",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "garden",
+    "image": null
+  },
+
+  {
+    "name": "Musée Toulouse-Lautrec",
+    "lat": 43.9296,
+    "lng": 2.1433,
+    "location": "Albi, Tarn",
+    "website": "https://museetoulouselautrec.net/en/",
+    "nearCampsite": "Camping La Prade",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Musée Soulages",
+    "lat": 44.3528,
+    "lng": 2.5676,
+    "location": "Rodez, Aveyron",
+    "website": "https://musee-soulages-rodez.fr/en/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Musée Fenaille",
+    "lat": 44.3491,
+    "lng": 2.5766,
+    "location": "Rodez, Aveyron",
+    "website": "https://musee-fenaille-rodez.fr/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Maison des Vins de Gaillac",
+    "lat": 43.897,
+    "lng": 1.8962,
+    "location": "Gaillac, Tarn",
+    "website": "https://www.la-toscane-occitane.com/en/commerce-service/maison-des-vins-de-gaillac/",
+    "nearCampsite": "Camping La Prade",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Musée de la Mine Lucien Mazars",
+    "lat": 44.5276,
+    "lng": 2.2465,
+    "location": "Aubin, Aveyron",
+    "website": "https://www.guide-tarn-aveyron.com/en/tourism/discover/tourist-sites/museums/aubin-527/musee-de-la-mine-lucien-mazars-1156.html",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Musée Champollion – Les Écritures du Monde",
+    "lat": 44.6097,
+    "lng": 2.0344,
+    "location": "Figeac, Lot",
+    "website": "https://musee-champollion.fr/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "National Prehistory Museum",
+    "lat": 44.936,
+    "lng": 1.0135,
+    "location": "Les Eyzies-de-Tayac, Dordogne",
+    "website": "https://www.musee-prehistoire-eyzies.fr/en",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Musée de la Vieille Prune (Distillerie Louis Roque)",
+    "lat": 44.891,
+    "lng": 1.476,
+    "location": "Souillac, Lot",
+    "website": "https://www.lavieilleprune.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Musée Agricole & Automobile du Lot",
+    "lat": 44.6739,
+    "lng": 1.27,
+    "location": "Salviac, Lot",
+    "website": "http://www.musee-agricole-salviac.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Château de Castelnaud – Museum of Medieval Warfare",
+    "lat": 44.8206,
+    "lng": 1.1459,
+    "location": "Castelnaud-la-Chapelle, Dordogne",
+    "website": "https://castelnaud.com/?lang=en",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "museum",
+    "image": null
+  },
+  {
+    "name": "Jardins de Marqueyssac",
+    "lat": 44.823,
+    "lng": 1.182,
+    "location": "La Roque-Gageac, Dordogne",
+    "website": "https://www.marqueyssac.com/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Parc Floral de Cahors",
+    "lat": 44.447,
+    "lng": 1.441,
+    "location": "Cahors, Lot",
+    "website": "https://www.tourisme-lot.com/en/parc-floral-cahors/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Jardins de l'Évêché",
+    "lat": 44.926,
+    "lng": 2.445,
+    "location": "Aurillac, Cantal",
+    "website": "https://www.aurillac-tourisme.com/en/gardens/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Parc de la Préhistoire",
+    "lat": 44.936,
+    "lng": 1.0135,
+    "location": "Les Eyzies-de-Tayac, Dordogne",
+    "website": "https://www.parc-prehistoire.com/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "garden",
+    "image": null
+  },
+  {
+    "name": "Jardin des Plantes de Sarlat",
+    "lat": 44.889,
+    "lng": 1.216,
+    "location": "Sarlat-la-Canéda, Dordogne",
+    "website": "https://www.sarlat-tourisme.com/en/gardens/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "garden",
+    "image": null
   }
 ]
