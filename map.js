@@ -327,6 +327,9 @@ function loadPOIs(map, bounds, poiUrl = "poi.json") {
       // Create dynamic category checkboxes
       createCategoryCheckboxes();
       
+      // Zoom to all POIs after data is loaded
+      setTimeout(zoomToAllPOIs, 500);
+      
       return pois;
     })
     .catch((error) => {
@@ -481,7 +484,13 @@ function updateDistanceCircles() {
   distanceCircles.forEach(circle => circle.setMap(null));
   distanceCircles = [];
   
+  const showAllCheckbox = document.getElementById('show-all-checkbox');
   const maxDistance = parseFloat(document.getElementById('distance-filter').value);
+  
+  // Don't show circles if "Show all" is checked
+  if (showAllCheckbox && showAllCheckbox.checked) {
+    return;
+  }
   
   // Check if any POI categories are enabled for distance filtering
   let hasActivePOICategories = false;
@@ -527,7 +536,27 @@ function updateDistanceCircles() {
 }
 
 function applyDistanceFilter() {
+  const showAllCheckbox = document.getElementById('show-all-checkbox');
   const maxDistance = parseFloat(document.getElementById('distance-filter').value);
+  
+  // If "Show all" is checked, show all POIs regardless of distance
+  if (showAllCheckbox && showAllCheckbox.checked) {
+    Object.entries(poiMarkers).forEach(([category, markers]) => {
+      const checkbox = document.getElementById(`toggle-${category}`);
+      if (checkbox && checkbox.checked) {
+        markers.forEach(marker => marker.setMap(mapInstance));
+      } else {
+        markers.forEach(marker => marker.setMap(null));
+      }
+    });
+    
+    // Update distance circles
+    updateDistanceCircles();
+    
+    // Update gallery when distance filter changes
+    setTimeout(updatePhotoGallery, 100);
+    return;
+  }
   
   // Get all currently visible campsite positions
   const visibleCampsitePositions = [];
@@ -600,6 +629,45 @@ function applyDistanceFilter() {
   setTimeout(updatePhotoGallery, 100);
 }
 
+function zoomToAllPOIs() {
+  if (!mapInstance) {
+    console.warn('Map instance not available');
+    return;
+  }
+  
+  // Collect all POI positions
+  const allPOIPositions = [];
+  Object.values(poiMarkers).forEach(categoryMarkers => {
+    categoryMarkers.forEach(marker => {
+      if (marker.getMap()) {
+        allPOIPositions.push(marker.getPosition());
+      }
+    });
+  });
+  
+  if (allPOIPositions.length === 0) {
+    console.warn('No visible POIs found');
+    return;
+  }
+  
+  // Create bounds that include all POIs
+  const bounds = new google.maps.LatLngBounds();
+  allPOIPositions.forEach(position => {
+    bounds.extend(position);
+  });
+  
+  // Add some padding
+  const ne = bounds.getNorthEast();
+  const sw = bounds.getSouthWest();
+  const padding = 0.1; // 10% padding
+  bounds.extend(new google.maps.LatLng(ne.lat() + padding, ne.lng() + padding));
+  bounds.extend(new google.maps.LatLng(sw.lat() - padding, sw.lng() - padding));
+  
+  // Fit map to bounds
+  mapInstance.fitBounds(bounds);
+  console.log('Map zoomed to all POIs');
+}
+
 function zoomToVisitCampsites() {
   if (!mapInstance) {
     console.warn('Map instance not available');
@@ -665,6 +733,7 @@ function setupToggleListeners() {
   
   // Distance filter listeners
   document.getElementById('distance-filter').addEventListener('input', applyDistanceFilter);
+  document.getElementById('show-all-checkbox').addEventListener('change', applyDistanceFilter);
   
   // Zoom to visit campsites button
   document.getElementById('zoom-to-visit-campsites').addEventListener('click', () => {
