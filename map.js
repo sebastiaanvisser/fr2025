@@ -122,7 +122,9 @@ function plotRoute(map, origin, destination, waypoints = [], lineColor = "#0000f
 
 /* ------------ reusable campsite loading function ------------ */
 function loadCampsites(map, bounds, campsiteUrl = "campsites.json", markerColor = "#0066cc", markerType = "east") {
-  return fetch(campsiteUrl)
+  // Add cache-busting parameter
+  const urlWithCacheBuster = `${campsiteUrl}?v=${Date.now()}`;
+  return fetch(urlWithCacheBuster)
     .then((r) => r.json())
     .then((campsites) => {
       const markers = [];
@@ -182,7 +184,9 @@ function loadMultipleCampsites(map, bounds, campsiteConfigs) {
       // Create individual checkboxes for visit campsites
       const visitConfig = campsiteConfigs.find(config => config.type === "visit");
       if (visitConfig) {
-        fetch(visitConfig.url)
+        // Add cache-busting parameter for visit campsites
+        const visitUrlWithCacheBuster = `${visitConfig.url}?v=${Date.now()}`;
+        fetch(visitUrlWithCacheBuster)
           .then(r => r.json())
           .then(visitCampsites => {
             createVisitCampsiteCheckboxes(visitCampsites);
@@ -215,7 +219,9 @@ function calculateDistance(lat1, lng1, lat2, lng2) {
 
 /* ------------ load POIs function ------------ */
 function loadPOIs(map, bounds, poiUrl = "poi.json") {
-  return fetch(poiUrl)
+  // Add cache-busting parameter
+  const urlWithCacheBuster = `${poiUrl}?v=${Date.now()}`;
+  return fetch(urlWithCacheBuster)
     .then((r) => r.json())
     .then((pois) => {
       // Initialize category markers
