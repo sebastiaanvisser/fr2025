@@ -1562,5 +1562,205 @@
     "nearCampsite": "Camping La Prade",
     "category": "museum",
     "image": "https://museedelaromanite.fr/content/uploads/2018/07/slider1-2-1024x630.v1532596954.jpg"
+  },
+  {
+    "name": "Gorges de l'Aveyron",
+    "lat": 44.156,
+    "lng": 1.699,
+    "location": "Saint‑Antonin‑Noble‑Val, Tarn‑et‑Garonne",
+    "website": "https://www.tourisme-saint-antonin-noble-val.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "gorges_scenic",
+    "image": "https://c8.alamy.com/comp/E2E11J/france-tarn-et-garonne-aveyron-gorges-near-saint-antonin-noble-val-E2E11J.jpg"
+  },
+  {
+    "name": "Gorges du Tarn",
+    "lat": 44.374,
+    "lng": 3.41,
+    "location": "La Malène – Sainte‑Enimie, Lozère",
+    "website": "https://www.gorgesdutarn.fr/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "gorges_scenic",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Sainte-Enimie-Gorges_du_Tarn-Frankreich.jpg/2560px-Sainte-Enimie-Gorges_du_Tarn-Frankreich.jpg"
+  },
+  {
+    "name": "Gorges de la Célé",
+    "lat": 44.616,
+    "lng": 1.85,
+    "location": "Marcilhac‑sur‑Célé, Lot",
+    "website": "https://www.vallee-cele.com/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "gorges_scenic",
+    "image": "https://c8.alamy.com/comp/2F35909/marcilhac-sur-cele-south-of-france-overview-of-the-old-town-of-sauliac-a-cliff-hanging-village-in-the-cele-valley-2F35909.jpg"
+  },
+  {
+    "name": "Gorges de l'Alzou",
+    "lat": 44.808,
+    "lng": 1.63,
+    "location": "Rocamadour, Lot",
+    "website": "https://www.tourisme-lot.com/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "gorges_scenic",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/01/50/e9/5a/vue-d-ensemble-gorge.jpg"
+  },
+  {
+    "name": "Gorges de la Dordogne",
+    "lat": 45.05,
+    "lng": 1.882,
+    "location": "Argentat‑sur‑Dordogne, Corrèze",
+    "website": "https://www.tourismecorreze.com/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "gorges_scenic",
+    "image": "https://woody.cloudly.space/app/uploads/ot-dordogne/2022/03/thumbs/belvedere-de-gratte-bruyere-les-dronersl-640x640.jpeg"
+  },
+  {
+    "name": "Gorges de la Jonte",
+    "lat": 44.215,
+    "lng": 3.395,
+    "location": "Meyrueis, Lozère",
+    "website": "https://www.gorgesdutarn-causses-jonte.fr/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "gorges_scenic",
+    "image": "https://c8.alamy.com/comp/2H1XY5R/lozere-48-occitania-causses-the-village-of-meyrueis-is-located-at-the-entrance-to-the-gorges-de-la-jonte-it-is-crossed-by-three-rivers-the-jont-2H1XY5R.jpg"
+  },
+  {
+    "name": "Gorges du Lot (Aveyron)",
+    "lat": 44.468,
+    "lng": 2.087,
+    "location": "Entraygues‑sur‑Truyère, Aveyron",
+    "website": "https://www.tourisme-aveyron.com/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "gorges_scenic",
+    "image": "https://www.tourisme-en-aubrac.com/app/uploads/2022/10/barrage-gorges-truyere.jpg"
+  },
+  {
+    "name": "Gorges de la Jordanne",
+    "lat": 44.906,
+    "lng": 2.611,
+    "location": "Saint‑Cirgues‑de‑Jordanne, Cantal",
+    "website": "https://www.gorgesdelajordanne.fr/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "gorges_scenic",
+    "image": "https://www.gites-de-france.com/sites/default/files/styles/facebook_1200x630/public/gorges_de_la_jordanne_poi_15.jpg?itok=HnqtToTO"
+  },
+  {
+    "name": "Gorges de la Truyère",
+    "lat": 44.65,
+    "lng": 2.611,
+    "location": "Entraygues‑sur‑Truyère, Aveyron",
+    "website": "https://www.truyereaveyron.com/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "gorges_scenic",
+    "image": "https://www.tourisme-en-aubrac.com/app/uploads/2022/10/barrage-gorges-truyere.jpg"
+  },
+  {
+    "name": "Gorges du Cernon",
+    "lat": 43.978,
+    "lng": 3.163,
+    "location": "Saint‑Georges‑de‑Luzençon, Aveyron",
+    "website": "https://leviala.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "gorges_scenic",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/15/46/1a/c-gorges-de-la-jonte.jpg?w=900&h=500&s=1"
+  },
+  {
+    "name": "Vesunna Gallo‑Roman Museum",
+    "lat": 45.184,
+    "lng": 0.719,
+    "location": "Périgueux, Dordogne",
+    "website": "https://perigueux-vesunna.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "roman_site",
+    "image": "https://cdm0lfbn.cloudimg.io/v7/_images_base_/image_uploader/photos/11/original/vesunna-gallo-roman-museum-perigueux-perigueux.jpg?ua=1579872345&p=small"
+  },
+  {
+    "name": "Villa Gallo‑Romaine de Montcaret",
+    "lat": 44.855,
+    "lng": 0.053,
+    "location": "Montcaret, Dordogne",
+    "website": "https://villagalloromaine.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "roman_site",
+    "image": "https://www.tourisme-dordogne-paysfoyen.com/wp-content/uploads/sites/3/wpetourisme/Villa-gallo-romaine-de-Montcaret--c--Delanne.jpg"
+  },
+  {
+    "name": "Cassinomagus Archaeological Park",
+    "lat": 45.73,
+    "lng": 0.73,
+    "location": "Chassenon, Charente",
+    "website": "https://www.cassinomagus.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "roman_site",
+    "image": "https://www.angouleme-tourisme.com/wp-content/uploads/wpetourisme/28571741-diaporama-897x1200.jpg"
+  },
+  {
+    "name": "Site Gallo‑Romain des Cars",
+    "lat": 45.5,
+    "lng": 1,
+    "location": "Corrèze / Haute‑Vienne border",
+    "website": "https://www.tourisme-limousin.net/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "roman_site",
+    "image": "https://www.destination-limoges.com/app/uploads/iris-images/178600/rocher-de-la-fileuse-vallee-de-la-creuse-a-m-turin-crtna-1920x1080-f50_50.webp"
+  },
+  {
+    "name": "Arc de Diane (Roman Baths)",
+    "lat": 44.446,
+    "lng": 1.452,
+    "location": "Cahors, Lot",
+    "website": "https://www.tourisme-cahors.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "roman_site",
+    "image": "https://www.cahorsvalleedulot.com/wp-content/uploads/external/7cd36812ea0d-Arc-de-Diane-a-Cahors--M_-Cochet---Office-de-Tourisme-Cahors---Vallee-du-Lot--10-1600x0.jpg"
+  },
+  {
+    "name": "Archéosite de Montans",
+    "lat": 43.939,
+    "lng": 1.891,
+    "location": "Montans, Tarn",
+    "website": "https://www.archeosite.ted.fr/",
+    "nearCampsite": "Camping La Prade",
+    "category": "roman_site",
+    "image": "https://i.ytimg.com/vi/q-neqWL6edg/maxresdefault.jpg"
+  },
+  {
+    "name": "Eburomagus Archaeological Museum",
+    "lat": 43.24,
+    "lng": 2.11,
+    "location": "Bram, Aude",
+    "website": "https://www.musee-eburomagus.com/",
+    "nearCampsite": "Camping La Prade",
+    "category": "roman_site",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/de/69/57/c-eburomagus-musee-archeologiq.jpg?w=900&h=500&s=1"
+  },
+  {
+    "name": "Pont Romain d'Aubin",
+    "lat": 44.528,
+    "lng": 2.226,
+    "location": "Aubin, Aveyron",
+    "website": "https://tourismeaveyron.fr/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "roman_site",
+    "image": "https://www.technometalpost.com/wp-content/uploads/Yves-de-Franssu-1.jpg"
+  },
+  {
+    "name": "Site Gallo‑Romain d'Eysses",
+    "lat": 44.408,
+    "lng": 0.705,
+    "location": "Villeneuve‑sur‑Lot, Lot‑et‑Garonne",
+    "website": "https://www.tourisme-villeneuvois.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "roman_site",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Villeneuve-sur-Lot_-_Tour_romaine_d%27Eysses_-178.jpg/1200px-Villeneuve-sur-Lot_-_Tour_romaine_d%27Eysses_-178.jpg"
+  },
+  {
+    "name": "Pont Romain de Cercles",
+    "lat": 45.469,
+    "lng": 0.481,
+    "location": "Cercles, Dordogne",
+    "website": "https://www.tourisme-nontron.fr/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "roman_site",
+    "image": "https://www.rouillac.com/ddoc-1010040-8ee70366d158bd56b23cb1acb52bdaf2-1_1.jpg"
   }
 ]

@@ -62,6 +62,18 @@ function initializeCategoryConfig() {
       color: "#90EE90", // light green
       shape: google.maps.SymbolPath.CIRCLE,
       scale: 8
+    },
+    gorges_scenic: {
+      name: "Gorges",
+      color:  "#FFA500", // orange
+      shape: google.maps.SymbolPath.CIRCLE,
+      scale: 8
+    },
+    roman_site: {
+      name: "Roman Sites",
+      color: "#FF69B4", // hot pink
+      shape: google.maps.SymbolPath.CIRCLE,
+      scale: 8
     }
   };
 }
