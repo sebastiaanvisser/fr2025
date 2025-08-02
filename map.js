@@ -249,6 +249,7 @@ function loadPOIs(map, bounds, poiUrl = "poi.json") {
         
         // Create info window content with image if available
         let content = `<strong>${poi.name}</strong><br>${poi.location}<br>`;
+        content += `<em>Category: ${config.name}</em><br>`;
         if (poi.nearCampsite) {
           content += `Near: ${poi.nearCampsite}<br>`;
         }
