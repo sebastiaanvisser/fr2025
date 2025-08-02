@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Le Lac d’Orient ★★★★",
+    "location": "Mesnil-Saint-Père (Troyes area)",
+    "percent": 47,
+    "detour": "12 km / 15 min",
+    "lat": 48.272,
+    "lng": 4.346,
+    "website": "https://www.camping-lacdorient.com/en/"
+  },
+  {
+    "name": "Camping de la Liez ★★★★★",
+    "location": "Peigney / Langres",
+    "percent": 51,
+    "detour": "10 km / 20 min",
+    "lat": 47.894,
+    "lng": 5.329,
+    "website": "https://www.campingliez.com/en/"
+  },
+  {
+    "name": "Vert Auxois ★★★",
+    "location": "Pouilly-en-Auxois",
+    "percent": 55,
+    "detour": "4 km / 5 min",
+    "lat": 47.265,
+    "lng": 4.558,
+    "website": "https://camping-vert-auxois.fr/en/campsite-on-the-edge-of-the-burgundy-canal-pouilly-en-auxois-cote-dor-burgundy-franche-comte/"
+  },
+  {
+    "name": "Le Fil de l’Eau ★★★",
+    "location": "Premeaux-Prissey (Nuits-St-Georges)",
+    "percent": 57,
+    "detour": "7 km / 10 min",
+    "lat": 47.156,
+    "lng": 4.945,
+    "website": "https://www.camping-fildeleau.com/en/"
+  },
+  {
+    "name": "Camping de Tournus ★★★",
+    "location": "Tournus",
+    "percent": 63,
+    "detour": "1.5 km / 3 min",
+    "lat": 46.565,
+    "lng": 4.913,
+    "website": "https://www.camping-tournus.com/en/"
+  },
+  {
+    "name": "Huttopia Étang de Fouché ★★★★",
+    "location": "Arnay-le-Duc",
+    "percent": 56,
+    "detour": "13 km / 15 min",
+    "lat": 47.133,
+    "lng": 4.489,
+    "website": "https://europe.huttopia.com/en/site/etang-de-fouche/"
+  },
+  {
+    "name": "Huttopia Meursault ★★★",
+    "location": "Meursault",
+    "percent": 60,
+    "detour": "8 km / 10 min",
+    "lat": 46.977,
+    "lng": 4.768,
+    "website": "https://europe.huttopia.com/en/site/meursault/"
+  },
+  {
+    "name": "La Grappe d’Or ★★★",
+    "location": "Meursault",
+    "percent": 60,
+    "detour": "8 km / 10 min",
+    "lat": 46.977,
+    "lng": 4.768,
+    "website": "https://www.camping.info/en/campsite/camping-la-grappe-dor-meursault"
+  },
+  {
+    "name": "Camping de Santenay ★★★",
+    "location": "Santenay",
+    "percent": 61,
+    "detour": "10 km / 12 min",
+    "lat": 46.905,
+    "lng": 4.662,
+    "website": "https://www.terracamps.com/en/nature-campsite/camping-de-santenay"
+  },
+  {
+    "name": "Camping du Lac Kir ★★",
+    "location": "Dijon",
+    "percent": 54,
+    "detour": "5 km / 10 min",
+    "lat": 47.318,
+    "lng": 5.004,
+    "website": "https://www.camping-du-lac-dijon.com/"
+  },
+  {
+    "name": "Lac de Panthier ★★★★",
+    "location": "Vandenesse-en-Auxois",
+    "percent": 55,
+    "detour": "6 km / 10 min",
+    "lat": 47.256,
+    "lng": 4.553,
+    "website": "https://www.lac-de-panthier.com/en"
+  },
+  {
+    "name": "Pont de Bourgogne ★★★",
+    "location": "Chalon-sur-Saône",
+    "percent": 64,
+    "detour": "1.5 km / 5 min",
+    "lat": 46.778,
+    "lng": 4.855,
+    "website": "https://www.camping-chalon.com/?lang=en"
+  }
+]

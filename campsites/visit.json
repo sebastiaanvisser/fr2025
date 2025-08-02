@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Camping La Prade ★★★",
+    "location": "Montirat (Tarn)",
+    "percent": 100,
+    "detour": "25 km / 30 min from N88 at Carmaux",
+    "lat": 44.171322,
+    "lng": 2.059668,
+    "website": "https://www.campinglaprade.com/"
+  },
+  {
+    "name": "Camping Moulin de Chaules ★★★",
+    "location": "Saint-Constant-Fournoulès (Cantal)",
+    "percent": 93,
+    "detour": "25 km / 30 min from D922 / Maurs (N122 corridor)",
+    "lat": 44.681667,
+    "lng": 2.260556,
+    "website": "https://moulin-de-chaules.com/en/"
+  },
+  {
+    "name": "Camping Domaine des Mathevies ★★★★",
+    "location": "Sainte-Nathalène (Dordogne)",
+    "percent": 93,
+    "detour": "14 km / 15 min from A20 exit 55 (Souillac)",
+    "lat": 44.918056,
+    "lng": 1.277778,
+    "website": "https://www.mathevies.com/"
+  }
+]

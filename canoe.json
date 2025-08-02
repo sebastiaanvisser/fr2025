@@ -1,0 +1,74 @@
+[
+  {
+    "name": "AAGAC Outdoor Sports Base",
+    "lat": 44.2203,
+    "lng": 1.9684,
+    "location": "Najac, Aveyron",
+    "website": "https://en.bastides-gorges-aveyron.fr/activites/aagac-canoe-kayak/",
+    "nearCampsite": "Camping La Prade",
+    "image": null
+  },
+  {
+    "name": "Evasion Canoë",
+    "lat": 44.1489,
+    "lng": 1.7436,
+    "location": "Saint-Antonin-Noble-Val, Tarn-et-Garonne",
+    "website": "https://www.tourisme-tarnetgaronne.fr/en/offers/evasion-canoe-saint-antonin-noble-val-en-2357896/",
+    "nearCampsite": "Camping La Prade",
+    "image": null
+  },
+  {
+    "name": "Escapad'O Canoë-Kayak",
+    "lat": 44.0722,
+    "lng": 1.7144,
+    "location": "Penne, Tarn",
+    "website": "https://www.escapado-penne.fr/",
+    "nearCampsite": "Camping La Prade",
+    "image": null
+  },
+  {
+    "name": "ASVOLT – Base Canoë Nature",
+    "lat": 44.6467,
+    "lng": 2.456,
+    "location": "Vieillevie, Cantal (Lot valley)",
+    "website": "https://www.asvolt.fr/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "image": null
+  },
+  {
+    "name": "Passion Aventure (Célé river)",
+    "lat": 44.5531,
+    "lng": 1.7716,
+    "location": "Marcilhac-sur-Célé, Lot",
+    "website": "https://www.location-canoe-cele.com/",
+    "nearCampsite": "Camping Moulin de Chaules",
+    "image": null
+  },
+  {
+    "name": "Canoës Loisirs Vitrac",
+    "lat": 44.8258,
+    "lng": 1.2244,
+    "location": "Vitrac / Domme, Dordogne",
+    "website": "https://canoes-loisirs.com/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Ch%C3%A2teau_de_Beynac_-_20090926.jpg"
+  },
+  {
+    "name": "Canoë Vacances",
+    "lat": 44.8153,
+    "lng": 1.1816,
+    "location": "La Roque-Gageac, Dordogne",
+    "website": "https://www.canoevacances.com/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Canoe_roque_gageac.jpg"
+  },
+  {
+    "name": "Canoës Découverte",
+    "lat": 44.8306,
+    "lng": 1.153,
+    "location": "Vézac (Castelnaud / Beynac sector), Dordogne",
+    "website": "https://www.canoes-decouverte.fr/en/",
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Canoas_en_Castelnaud-la-Chapelle.jpg"
+  }
+]

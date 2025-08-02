@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Huttopia Rambouillet ★★★",
+    "location": "Rambouillet (Île-de-France)",
+    "percent": 41,
+    "detour": "7 km / 10 min",
+    "lat": 48.643,
+    "lng": 1.821,
+    "website": "https://europe.huttopia.com/site/camping-huttopia-rambouillet/"
+  },
+  {
+    "name": "Camping Les Îlots de Saint-Val ★★★",
+    "location": "Mignières – Chartres Sud",
+    "percent": 46,
+    "detour": "6 km / 8 min",
+    "lat": 48.433,
+    "lng": 1.46,
+    "website": "https://www.lesilotssaintval.com/"
+  },
+  {
+    "name": "Camping d’Olivet ★★★",
+    "location": "Olivet (Orléans)",
+    "percent": 51,
+    "detour": "8 km / 12 min",
+    "lat": 47.841,
+    "lng": 1.888,
+    "website": "https://www.camping-olivet.com/"
+  },
+  {
+    "name": "Sandaya Château des Marais ★★★★",
+    "location": "Muides-sur-Loire – Chambord",
+    "percent": 54,
+    "detour": "8 km / 10 min",
+    "lat": 47.674,
+    "lng": 1.527,
+    "website": "https://www.sandaya.fr/nos-campings/chateau-des-marais"
+  },
+  {
+    "name": "Huttopia Les Châteaux ★★★",
+    "location": "Bracieux (Loir-et-Cher)",
+    "percent": 55,
+    "detour": "10 km / 12 min",
+    "lat": 47.598,
+    "lng": 1.533,
+    "website": "https://europe.huttopia.com/site/camping-huttopia-les-chateaux/"
+  },
+  {
+    "name": "Camping Les Saules ★★★★",
+    "location": "Cheverny – Côte des Châteaux",
+    "percent": 56,
+    "detour": "14 km / 15 min",
+    "lat": 47.515,
+    "lng": 1.455,
+    "website": "https://www.campinglessaules.com/"
+  },
+  {
+    "name": "Camping La Grande Sologne ★★★",
+    "location": "Nouan-le-Fuzelier (Sologne)",
+    "percent": 57,
+    "detour": "5 km / 6 min",
+    "lat": 47.386,
+    "lng": 2.03,
+    "website": "https://www.campinglagrandesologne.com/"
+  },
+  {
+    "name": "Camping Municipal de Vierzon ★★★",
+    "location": "Vierzon (Cher)",
+    "percent": 60,
+    "detour": "5 km / 8 min",
+    "lat": 47.22,
+    "lng": 2.035,
+    "website": "https://www.ville-vierzon.fr/loisirs/camping"
+  },
+  {
+    "name": "Camping Le Rochat Belle-Isle ★★★",
+    "location": "Châteauroux – Belle-Isle Lake",
+    "percent": 66,
+    "detour": "6 km / 10 min",
+    "lat": 46.811,
+    "lng": 1.687,
+    "website": "https://www.campingrochatebelleisle.com/"
+  },
+  {
+    "name": "Camping Les Chambons ★★★",
+    "location": "Argenton-sur-Creuse",
+    "percent": 69,
+    "detour": "7 km / 10 min",
+    "lat": 46.591,
+    "lng": 1.514,
+    "website": "https://www.camping-argentonleschambons.fr/"
+  }
+]
