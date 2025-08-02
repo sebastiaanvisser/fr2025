@@ -286,6 +286,26 @@ function toggleRoute(routeType, visible) {
   }
 }
 
+function toggleAllPOICategories() {
+  Object.keys(CATEGORY_CONFIG).forEach(category => {
+    const checkbox = document.getElementById(`toggle-${category}`);
+    if (checkbox) {
+      checkbox.checked = true;
+      togglePOICategory(category, true);
+    }
+  });
+}
+
+function toggleNonePOICategories() {
+  Object.keys(CATEGORY_CONFIG).forEach(category => {
+    const checkbox = document.getElementById(`toggle-${category}`);
+    if (checkbox) {
+      checkbox.checked = false;
+      togglePOICategory(category, false);
+    }
+  });
+}
+
 function togglePOICategory(category, visible) {
   if (poiMarkers[category]) {
     poiMarkers[category].forEach(marker => {
@@ -312,6 +332,11 @@ function createCategoryCheckboxes() {
   
   Object.entries(CATEGORY_CONFIG).forEach(([category, config]) => {
     const label = document.createElement('label');
+    label.style.cssText = 'display: flex; justify-content: space-between; align-items: center;';
+    
+    // Create left side with checkbox, icon, and name
+    const leftSide = document.createElement('div');
+    leftSide.style.cssText = 'display: flex; align-items: center;';
     
     // Create icon element
     const icon = document.createElement('span');
@@ -326,18 +351,40 @@ function createCategoryCheckboxes() {
       vertical-align: middle;
     `;
     
-    label.innerHTML = `<input type="checkbox" id="toggle-${category}" checked> `;
-    label.appendChild(icon);
-    label.appendChild(document.createTextNode(config.name));
+    leftSide.innerHTML = `<input type="checkbox" id="toggle-${category}" checked> `;
+    leftSide.appendChild(icon);
+    leftSide.appendChild(document.createTextNode(config.name));
+    
+    // Create right side with count
+    const rightSide = document.createElement('span');
+    rightSide.style.cssText = 'color: #999; font-size: 12px; margin-left: auto;';
+    
+    // Get count for this category
+    const count = poiMarkers[category] ? poiMarkers[category].length : 0;
+    rightSide.textContent = `(${count})`;
     
     // Add event listener for category toggle
-    const checkbox = label.querySelector('input');
+    const checkbox = leftSide.querySelector('input');
     checkbox.addEventListener('change', (e) => {
       togglePOICategory(category, e.target.checked);
     });
     
+    label.appendChild(leftSide);
+    label.appendChild(rightSide);
     container.appendChild(label);
   });
+  
+  // Add event listeners for All/None buttons
+  const toggleAllBtn = document.getElementById('toggle-all-poi');
+  const toggleNoneBtn = document.getElementById('toggle-none-poi');
+  
+  if (toggleAllBtn) {
+    toggleAllBtn.addEventListener('click', toggleAllPOICategories);
+  }
+  
+  if (toggleNoneBtn) {
+    toggleNoneBtn.addEventListener('click', toggleNonePOICategories);
+  }
 }
 
 function createVisitCampsiteCheckboxes(visitCampsites) {
