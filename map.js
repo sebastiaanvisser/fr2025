@@ -74,6 +74,18 @@ function initializeCategoryConfig() {
       color: "#FF69B4", // hot pink
       shape: google.maps.SymbolPath.CIRCLE,
       scale: 8
+    },
+    lunch_place: {
+      name: "Lunch Places",
+      color: "#FF6347", // tomato red
+      shape: google.maps.SymbolPath.CIRCLE,
+      scale: 8
+    },
+    patisserie: {
+      name: "Patisseries",
+      color: "#DDA0DD", // plum
+      shape: google.maps.SymbolPath.CIRCLE,
+      scale: 8
     }
   };
 }
@@ -1043,7 +1055,6 @@ function updatePhotoGallery() {
     galleryItem.addEventListener('click', () => {
       // Center map on marker
       mapInstance.panTo(item.marker.getPosition());
-      mapInstance.setZoom(Math.max(mapInstance.getZoom(), 12));
       
       // Open info window
       if (currentInfoWindow) {

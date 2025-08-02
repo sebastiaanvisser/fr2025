@@ -1762,5 +1762,405 @@
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "roman_site",
     "image": "https://www.rouillac.com/ddoc-1010040-8ee70366d158bd56b23cb1acb52bdaf2-1_1.jpg"
+  },
+  {
+    "name": "Le Festin de Babette",
+    "lat": 44.138,
+    "lng": 1.75,
+    "location": "Saint‑Antonin‑Noble‑Val, Tarn‑et‑Garonne",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "lunch_place",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/f4/1f/aa/nature-escapade.jpg?w=1400&h=1400&s=1"
+  },
+  {
+    "name": "Le Bistrot de Vaïssière",
+    "lat": 44.138,
+    "lng": 1.751,
+    "location": "Saint‑Antonin‑Noble‑Val, Tarn‑et‑Garonne",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "lunch_place",
+    "image": "https://www.lebistrot1957.fr/wp-content/uploads/2022/01/reserver-01-1024x682.jpg"
+  },
+  {
+    "name": "Auberge des Gorges de l'Aveyron",
+    "lat": 44.059,
+    "lng": 1.618,
+    "location": "Bruniquel, Tarn‑et‑Garonne",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "lunch_place",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/b7/45/cd/photo2jpg.jpg?w=900&h=500&s=1"
+  },
+  {
+    "name": "Auberge de Puycelsi",
+    "lat": 43.998,
+    "lng": 1.63,
+    "location": "Puycelsi, Tarn",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "lunch_place",
+    "image": "https://www.hit-occitanie.com/media/hit/ois/SITRA2_RES_6453272/images/16876879.jpg"
+  },
+  {
+    "name": "Le Mangevins",
+    "lat": 44.015,
+    "lng": 1.355,
+    "location": "Montauban, Tarn‑et‑Garonne",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "lunch_place",
+    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/0r1vSLZYKiY4krq4VsRYiQ/1000s.jpg"
+  },
+  {
+    "name": "Le Relais de Montal",
+    "lat": 44.153,
+    "lng": 1.817,
+    "location": "Varen, Tarn‑et‑Garonne",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "lunch_place",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d1/e1/5d/caption.jpg?w=800&h=400&s=1"
+  },
+  {
+    "name": "Bistrot de Capitel",
+    "lat": 44.245,
+    "lng": 1.771,
+    "location": "Caylus, Tarn‑et‑Garonne",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "lunch_place",
+    "image": "https://francetoday.com/wp-content/uploads/2022/03/St-Antonin-Noble-Val-ALAMY-FCH4GR-min-670x445.jpg"
+  },
+  {
+    "name": "Auberge de la Tour",
+    "lat": 44.715,
+    "lng": 2.33,
+    "location": "Marcolès, Cantal",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "lunch_place",
+    "image": "https://www.aubergedela-tour.com/cache/d/f/9/6/4/df964cf4a66edce2e42df26ab6cac37d22a32189.jpeg"
+  },
+  {
+    "name": "Lou Griffoul",
+    "lat": 44.608,
+    "lng": 2.033,
+    "location": "Figeac, Lot",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "lunch_place",
+    "image": "https://all-andorra.com/wp-content/uploads/2024/01/Figeac_attractions-min.png"
+  },
+  {
+    "name": "La Cuisine du Marché",
+    "lat": 44.609,
+    "lng": 2.04,
+    "location": "Figeac, Lot",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "lunch_place",
+    "image": "https://api.cloudly.space/resize/cropratio/640/640/75/aHR0cHM6Ly9jZHQ0Ni5tZWRpYS50b3VyaW5zb2Z0LmV1L3VwbG9hZC8xOTEyMDRDdWlzaW5lZHVNYXJjaGUtRmlnZWFjMi5KUEc=/image.webp"
+  },
+  {
+    "name": "Auberge de Mourjou",
+    "lat": 44.722,
+    "lng": 2.273,
+    "location": "Mourjou, Cantal",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "lunch_place",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Mourjou-village.JPG/330px-Mourjou-village.JPG"
+  },
+  {
+    "name": "La Truite Qui Parle",
+    "lat": 44.786,
+    "lng": 2.378,
+    "location": "Cassaniouze, Cantal",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "lunch_place",
+    "image": "https://aucoeurduchr.fr/wp-content/uploads/2021/10/david_berg%C3%A8s_et_philippe_fleury.jpg"
+  },
+  {
+    "name": "Restaurant L'Esplanade",
+    "lat": 44.559,
+    "lng": 2.25,
+    "location": "Decazeville, Aveyron",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "lunch_place",
+    "image": "https://www.teritoria.com/wp-content/uploads/2025/06/3008-20250604-120722-0-5617.jpg"
+  },
+  {
+    "name": "Le P'tit Bouchon",
+    "lat": 44.625,
+    "lng": 2.196,
+    "location": "Maurs, Cantal",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "lunch_place",
+    "image": "https://www.domainehuet.com/images/template/full-height-background.jpg"
+  },
+  {
+    "name": "Le Bistro de l'Octroi",
+    "lat": 44.887,
+    "lng": 1.219,
+    "location": "Sarlat‑la‑Canéda, Dordogne",
+    "website": null,
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "lunch_place",
+    "image": "https://api.cloudly.space/resize/cropratio/640/640/75/aHR0cHM6Ly9jZHQyNC5tZWRpYS50b3VyaW5zb2Z0LmV1L3VwbG9hZC9zYXJsYXQtYmlzdHJvLXJlc3RhdXJhbnQtb2N0cm9pLmpwZw==/image.webp"
+  },
+  {
+    "name": "La Couleuvrine",
+    "lat": 44.889,
+    "lng": 1.216,
+    "location": "Sarlat‑la‑Canéda, Dordogne",
+    "website": null,
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "lunch_place",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/715325142.jpg?k=5da5fd4c28eb7ab3c846a3b1c5415fec75625e1883a7586d5cad98509562d867&o=&hp=1"
+  },
+  {
+    "name": "Auberge de Mirandol",
+    "lat": 44.89,
+    "lng": 1.216,
+    "location": "Sarlat‑la‑Canéda, Dordogne",
+    "website": null,
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "lunch_place",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/db/82/01/exterieur.jpg?w=900&h=500&s=1"
+  },
+  {
+    "name": "Cabanoix et Châtaigne",
+    "lat": 44.799,
+    "lng": 1.226,
+    "location": "Domme, Dordogne",
+    "website": null,
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "lunch_place",
+    "image": "https://c8.alamy.com/comp/AF23G0/cabanoix-et-chataigne-restuarant-domme-dordogne-france-europe-AF23G0.jpg"
+  },
+  {
+    "name": "Les Prés Gaillardou",
+    "lat": 44.833,
+    "lng": 1.181,
+    "location": "La Roque‑Gageac, Dordogne",
+    "website": null,
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "lunch_place",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/56/ea/3a/hotel-le-perigord.jpg?w=900&h=500&s=1"
+  },
+  {
+    "name": "Ferme Auberge du Brusquand",
+    "lat": 44.952,
+    "lng": 1.217,
+    "location": "Marquay, Dordogne",
+    "website": null,
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "lunch_place",
+    "image": "https://www.auberge-du-brusquand-dordogne-perigord.com/2011/auberge6.jpg"
+  },
+  {
+    "name": "Maison Pélissier",
+    "lat": 44.138,
+    "lng": 1.75,
+    "location": "Saint‑Antonin‑Noble‑Val, Tarn‑et‑Garonne",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "patisserie",
+    "image": "https://c8.alamy.com/comp/C81RW8/narrow-streets-of-st-antonin-noble-val-tarn-et-garonne-midi-pyrnes-C81RW8.jpg"
+  },
+  {
+    "name": "Pâtisserie Valette",
+    "lat": 44.246,
+    "lng": 1.771,
+    "location": "Caylus, Tarn‑et‑Garonne",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "patisserie",
+    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/fuQaD8RjM1a-SdthuB3CSQ/1000s.jpg"
+  },
+  {
+    "name": "Boulangerie du Ségala",
+    "lat": 44.223,
+    "lng": 1.969,
+    "location": "Najac, Aveyron",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "patisserie",
+    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/lq6c1BkxRRcT-8-nnYsb_A/348s.jpg"
+  },
+  {
+    "name": "Pâtisserie Couderc",
+    "lat": 44.351,
+    "lng": 2.04,
+    "location": "Villefranche‑de‑Rouergue, Aveyron",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "patisserie",
+    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/-pL2eyyNKg42T3yvpSxtEA/348s.jpg"
+  },
+  {
+    "name": "Pâtisserie Sabines",
+    "lat": 44.015,
+    "lng": 1.355,
+    "location": "Montauban, Tarn‑et‑Garonne",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "patisserie",
+    "image": "https://france3-regions.franceinfo.fr/image/GMOhIrxe0KWCneEoczsIel2cS9Q/600x400/regions/2025/04/01/rund-um-l-mmele-sh-00-02-47-03-67ec5e8e53c1d294073719.jpg"
+  },
+  {
+    "name": "Pâtisserie Carré",
+    "lat": 43.901,
+    "lng": 1.893,
+    "location": "Gaillac, Tarn",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "patisserie",
+    "image": "https://substackcdn.com/image/fetch/$s_!Mzps!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7fbcc5c-cbc4-4a08-a07d-ab09d33568a5_3024x4032.heic"
+  },
+  {
+    "name": "Boulangerie des Gorges",
+    "lat": 44.1528,
+    "lng": 1.817,
+    "location": "Varen, Tarn‑et‑Garonne",
+    "website": null,
+    "nearCampsite": "Camping La Prade",
+    "category": "patisserie",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-760114730907532478/original/de9e7992-5882-4ab3-bf46-f4a453d2e1c4.jpeg"
+  },
+  {
+    "name": "Aux Délices de Maurs",
+    "lat": 44.625,
+    "lng": 2.196,
+    "location": "Maurs, Cantal",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "patisserie",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/e6/c8/89/photo2jpg.jpg?w=900&h=-1&s=1"
+  },
+  {
+    "name": "Pâtisserie Marty",
+    "lat": 44.608,
+    "lng": 2.033,
+    "location": "Figeac, Lot",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "patisserie",
+    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/fuQaD8RjM1a-SdthuB3CSQ/1000s.jpg"
+  },
+  {
+    "name": "Aux Saveurs des Lys",
+    "lat": 44.614,
+    "lng": 2.048,
+    "location": "Figeac, Lot",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "patisserie",
+    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/ZyoiOWpV17HwkrvOFkPChw/1000s.jpg"
+  },
+  {
+    "name": "Boulangerie Cartry",
+    "lat": 44.559,
+    "lng": 2.25,
+    "location": "Decazeville, Aveyron",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "patisserie",
+    "image": "https://www.thenaturaladventure.com/wp-content/uploads/2023/01/le-puy-camino-complete-le-puy-en-velay-to-st-jean-pied-de-port-2-crop-1672685178-1945x1094.jpg"
+  },
+  {
+    "name": "Boulangerie du Puy Blanc",
+    "lat": 44.487,
+    "lng": 1.839,
+    "location": "Cajarc, Lot",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "patisserie",
+    "image": "https://c8.alamy.com/comp/M116K1/cajarc-france-24th-july-2008-selling-bread-at-the-traditional-street-M116K1.jpg"
+  },
+  {
+    "name": "Au Bon Pain",
+    "lat": 44.7,
+    "lng": 2.278,
+    "location": "Saint‑Constant‑Fournoulès, Cantal",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "patisserie",
+    "image": "https://media.vrbo.com/lodging/35000000/34300000/34298400/34298314/01820fc1.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
+  },
+  {
+    "name": "Boulangerie des Pèlerins",
+    "lat": 44.608,
+    "lng": 2.401,
+    "location": "Conques, Aveyron",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "patisserie",
+    "image": "https://francetoday.com/wp-content/uploads/2024/11/MEMBERS-SASH24.jpg"
+  },
+  {
+    "name": "Pâtisserie Deleuil",
+    "lat": 44.919,
+    "lng": 2.439,
+    "location": "Aurillac, Cantal",
+    "website": null,
+    "nearCampsite": "Camping Moulin de Chaules",
+    "category": "patisserie",
+    "image": "x-raw-image:///f0bc6157af1d09f281eef219a7e31c516e17c36f50a2dced50fb33cc690a5740"
+  },
+  {
+    "name": "Pâtisserie Léonard",
+    "lat": 44.889,
+    "lng": 1.216,
+    "location": "Sarlat‑la‑Canéda, Dordogne",
+    "website": null,
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "patisserie",
+    "image": "https://c8.alamy.com/comp/2CC65N6/medieval-france-street-scene-with-medieval-buildings-in-the-old-town-tours-loire-valley-france-europe-2CC65N6.jpg"
+  },
+  {
+    "name": "Pâtisserie du Palace",
+    "lat": 44.89,
+    "lng": 1.216,
+    "location": "Sarlat‑la‑Canéda, Dordogne",
+    "website": null,
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "patisserie",
+    "image": "https://i0.wp.com/wanderdolls.com/wp-content/uploads/2017/02/IMG_3624.jpg?resize=1100%2C1467"
+  },
+  {
+    "name": "Maison Lamy",
+    "lat": 44.799,
+    "lng": 1.226,
+    "location": "Domme, Dordogne",
+    "website": null,
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "patisserie",
+    "image": "https://c8.alamy.com/comp/2M6XCDB/street-in-domme-france-2M6XCDB.jpg"
+  },
+  {
+    "name": "Boulangerie La Roque Gageac",
+    "lat": 44.833,
+    "lng": 1.181,
+    "location": "La Roque‑Gageac, Dordogne",
+    "website": null,
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "patisserie",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/04/0d/1d/95/cliff-caves-houses.jpg"
+  },
+  {
+    "name": "Les Délices de la Vézère",
+    "lat": 45.065,
+    "lng": 1.161,
+    "location": "Montignac‑Lascaux, Dordogne",
+    "website": null,
+    "nearCampsite": "Camping Domaine des Mathevies",
+    "category": "patisserie",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/da/22/e5/photo0jpg.jpg?w=900&h=500&s=1"
   }
 ]
