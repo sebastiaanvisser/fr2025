@@ -131,7 +131,7 @@ function loadCampsites(map, bounds, campsiteUrl = "campsites.json", markerColor 
           position: { lat: cs.lat, lng: cs.lng },
           map,
           title: cs.name,
-          icon: {
+          icon: markerType === 'visit' ? undefined : {
             path: google.maps.SymbolPath.CIRCLE,
             scale: 8,
             fillColor: markerColor,
@@ -252,6 +252,17 @@ function loadPOIs(map, bounds, poiUrl = "poi.json") {
         if (poi.nearCampsite) {
           content += `Near: ${poi.nearCampsite}<br>`;
         }
+        
+        // Add Perplexity search link
+        const searchQuery = encodeURIComponent(`${poi.name} ${poi.location} in English`);
+        const perplexityUrl = `https://www.perplexity.ai/?q=${searchQuery}`;
+        content += `<a href="${perplexityUrl}" target="_blank" style="color: #007bff; text-decoration: none;">🔍 Search in Perplexity</a><br>`;
+        
+        // Add Google Images search link
+        const imageSearchQuery = encodeURIComponent(`${poi.name} ${poi.location}`);
+        const googleImagesUrl = `https://www.google.com/search?q=${imageSearchQuery}&tbm=isch`;
+        content += `<a href="${googleImagesUrl}" target="_blank" style="color: #007bff; text-decoration: none;">🖼️ Google Images</a><br>`;
+        
         if (poi.website) {
           content += `<a href="${poi.website}" target="_blank">Website</a><br>`;
         }
@@ -373,6 +384,13 @@ function createCategoryCheckboxes() {
     label.appendChild(rightSide);
     container.appendChild(label);
   });
+  
+  // Calculate and display total count
+  const totalCount = Object.values(poiMarkers).reduce((sum, markers) => sum + markers.length, 0);
+  const totalElement = document.createElement('div');
+  totalElement.style.cssText = 'margin-top: 10px; padding-top: 10px; border-top: 1px solid #eee; color: #666; font-size: 12px; text-align: right;';
+  totalElement.textContent = `Total: ${totalCount}`;
+  container.appendChild(totalElement);
   
   // Add event listeners for All/None buttons
   const toggleAllBtn = document.getElementById('toggle-all-poi');
