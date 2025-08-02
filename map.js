@@ -143,12 +143,17 @@ function loadCampsites(map, bounds, campsiteUrl = "campsites.json", markerColor 
             strokeWeight: 2,
           },
         });
+        // Create info window content with image if available
+        let content = `<strong>${cs.name}</strong><br>${cs.location}<br>${cs.percent} % of trip, ${cs.detour}<br>`;
+        content += `<a href="${cs.website}" target="_blank">Website</a>`;
+        
+        // Add image if available
+        if (cs.image) {
+          content += `<br><img src="${cs.image}" alt="${cs.name}" style="max-width:200px;max-height:150px;margin-top:10px;border-radius:8px;box-shadow:0 2px 4px rgba(0,0,0,0.1);cursor:pointer;" onclick="openFullscreenImage('${cs.image}', '${cs.name}')">`;
+        }
+        
         const iw = new google.maps.InfoWindow({
-          content:
-            `<strong>${cs.name}</strong><br>` +
-            `${cs.location}<br>` +
-            `${cs.percent} % of trip, ${cs.detour}<br>` +
-            `<a href="${cs.website}" target="_blank">Website</a>`,
+          content: content,
         });
         marker.addListener("click", () => {
           // Close previous info window if open
@@ -283,7 +288,7 @@ function loadPOIs(map, bounds, poiUrl = "poi.json") {
           content += `<a href="${poi.website}" target="_blank">Website</a><br>`;
         }
         if (poi.image) {
-          content += `<img src="${poi.image}" alt="${poi.name}" style="max-width:200px;max-height:150px;margin-top:5px;">`;
+          content += `<br><img src="${poi.image}" alt="${poi.name}" style="max-width:200px;max-height:150px;margin-top:10px;border-radius:8px;box-shadow:0 2px 4px rgba(0,0,0,0.1);cursor:pointer;" onclick="openFullscreenImage('${poi.image}', '${poi.name}')">`;
         }
         
         const iw = new google.maps.InfoWindow({
@@ -744,4 +749,123 @@ function loadMapScript() {
   s.async = s.defer = true;
   document.head.appendChild(s);
 }
-window.addEventListener("load", loadMapScript); 
+window.addEventListener("load", loadMapScript);
+
+/* ------------ fullscreen image viewer functions ------------ */
+function openFullscreenImage(imageUrl, title) {
+  // Create backdrop
+  const backdrop = document.createElement('div');
+  backdrop.id = 'fullscreen-backdrop';
+  backdrop.style.cssText = `
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  `;
+  
+  // Create image container
+  const imageContainer = document.createElement('div');
+  imageContainer.style.cssText = `
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  `;
+  
+  // Create image element
+  const img = document.createElement('img');
+  img.src = imageUrl;
+  img.alt = title;
+  img.style.cssText = `
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  `;
+  
+  // Create title
+  const titleElement = document.createElement('div');
+  titleElement.textContent = title;
+  titleElement.style.cssText = `
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  `;
+  
+  // Add close button
+  const closeButton = document.createElement('div');
+  closeButton.innerHTML = '✕';
+  closeButton.style.cssText = `
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    transition: background-color 0.2s;
+  `;
+  closeButton.onmouseover = () => {
+    closeButton.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+  };
+  closeButton.onmouseout = () => {
+    closeButton.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+  };
+  
+  // Assemble the fullscreen viewer
+  imageContainer.appendChild(closeButton);
+  imageContainer.appendChild(img);
+  imageContainer.appendChild(titleElement);
+  backdrop.appendChild(imageContainer);
+  
+  // Add to page
+  document.body.appendChild(backdrop);
+  
+  // Close functions
+  function closeFullscreen() {
+    if (backdrop.parentNode) {
+      backdrop.parentNode.removeChild(backdrop);
+    }
+    document.body.style.overflow = '';
+  }
+  
+  // Event listeners
+  backdrop.addEventListener('click', (e) => {
+    if (e.target === backdrop) {
+      closeFullscreen();
+    }
+  });
+  
+  closeButton.addEventListener('click', closeFullscreen);
+  
+  // Keyboard support
+  document.addEventListener('keydown', function keyHandler(e) {
+    if (e.key === 'Escape') {
+      closeFullscreen();
+      document.removeEventListener('keydown', keyHandler);
+    }
+  });
+  
+  // Prevent body scroll when fullscreen is open
+  document.body.style.overflow = 'hidden';
+} 
