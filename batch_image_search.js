@@ -3,7 +3,11 @@ const fs = require('fs');
 // Configuration
 const INPUT_FILE = 'poi.json';
 const OUTPUT_FILE = 'poi_with_images.json';
-const MOCK_MODE = true; // Set to false to generate real commands
+
+// Environment variable configuration
+const MOCK_MODE = process.env.MOCK === 'true';
+const NO_LIMIT = process.env.NOLIMIT === 'true';
+const MAX_ITEMS = NO_LIMIT ? Infinity : 5;
 
 // Function to generate a mock image URL for testing
 function generateMockImageUrl(name, location) {
@@ -20,25 +24,36 @@ function createBackupFilename() {
 }
 
 // Function to process POI entries
-function processPOIEntries() {
+async function processPOIEntries() {
   try {
     // Read the POI data
     const poiData = JSON.parse(fs.readFileSync(INPUT_FILE, 'utf8'));
     const processedEntries = [];
     let skippedCount = 0;
     let processedCount = 0;
+    let limitedCount = 0;
     
     console.log(`Processing ${poiData.length} POI entries...`);
-    console.log(`Mode: ${MOCK_MODE ? 'MOCK (fake URLs)' : 'REAL (will print commands)'}`);
+    console.log(`Mode: ${MOCK_MODE ? 'MOCK (fake URLs)' : 'REAL (calling Google API)'}`);
+    console.log(`Limit: ${NO_LIMIT ? 'No limit' : `Max ${MAX_ITEMS} processed items (skipped entries don't count)`}`);
     console.log('=' .repeat(60));
     
-    poiData.forEach((entry, index) => {
+    for (let index = 0; index < poiData.length; index++) {
+      const entry = poiData[index];
+      
       // Skip entries that already have an image URL
       if (entry.image && entry.image !== null) {
         console.log(`[${index + 1}] SKIPPED: "${entry.name}" - already has image URL`);
         processedEntries.push(entry);
         skippedCount++;
-        return;
+        continue;
+      }
+      
+      // Check if we've reached the limit (only counts entries that need processing)
+      if (limitedCount >= MAX_ITEMS) {
+        console.log(`[${index + 1}] SKIPPED: "${entry.name}" - limit reached (${MAX_ITEMS} processed items)`);
+        processedEntries.push(entry);
+        continue;
       }
       
       // Create search query from name and location
@@ -52,16 +67,32 @@ function processPOIEntries() {
         
         console.log(`[${index + 1}] MOCK: "${entry.name}" -> ${mockImageUrl}`);
         processedCount++;
+        limitedCount++;
       } else {
-        // Real mode: print the command that would be run
-        const command = `node google_image_search.js "${searchQuery}"`;
-        console.log(`[${index + 1}] COMMAND: ${command}`);
-        
-        // Keep the original entry (no image URL added yet)
-        processedEntries.push(entry);
-        processedCount++;
+        // Real mode: call the Google image search API
+        try {
+          console.log(`[${index + 1}] SEARCHING: "${entry.name}"...`);
+          
+          // Import and call the Google image search function
+          const { getFirstGoogleImage } = require('./google_image_search.js');
+          const imageUrl = await getFirstGoogleImage(searchQuery);
+          
+          if (imageUrl) {
+            const updatedEntry = { ...entry, image: imageUrl };
+            processedEntries.push(updatedEntry);
+            console.log(`[${index + 1}] FOUND: "${entry.name}" -> ${imageUrl}`);
+            processedCount++;
+            limitedCount++;
+          } else {
+            console.log(`[${index + 1}] NO IMAGE: "${entry.name}" - no image found`);
+            processedEntries.push(entry);
+          }
+        } catch (error) {
+          console.error(`[${index + 1}] ERROR: "${entry.name}" - ${error.message}`);
+          processedEntries.push(entry);
+        }
       }
-    });
+    }
     
     // Write the updated data to output file
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(processedEntries, null, 2));
@@ -84,14 +115,13 @@ function processPOIEntries() {
     console.log(`- Total entries: ${poiData.length}`);
     console.log(`- Skipped (already have images): ${skippedCount}`);
     console.log(`- Processed: ${processedCount}`);
+    console.log(`- Limited by quota: ${limitedCount >= MAX_ITEMS ? 'Yes' : 'No'}`);
     console.log(`- Backup file: ${backupFilename}`);
     
     if (!MOCK_MODE) {
-      console.log('\n📝 Next steps:');
-      console.log('1. Review the commands above');
-      console.log('2. Run them one by one to get image URLs');
-      console.log('3. Update the JSON manually with the results');
-      console.log('4. Or modify this script to actually call the API');
+      console.log('\n📝 API Usage:');
+      console.log(`- Used ${limitedCount} Google API calls`);
+      console.log(`- Remaining quota: ${100 - limitedCount} calls today`);
     }
     
   } catch (error) {
@@ -102,7 +132,10 @@ function processPOIEntries() {
 
 // Run the script
 if (require.main === module) {
-  processPOIEntries();
+  processPOIEntries().catch(error => {
+    console.error('Script failed:', error.message);
+    process.exit(1);
+  });
 }
 
 module.exports = { processPOIEntries, generateMockImageUrl }; 

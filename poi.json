@@ -8,7 +8,7 @@
     "nearCampsite": "Camping La Prade",
     "category": "climbing_forest",
     "minAge": 3,
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/f5/d7/e2/notre-equipe-saisonniere.jpg?w=500&h=500&s=1"
   },
   {
     "name": "Cap Nature Parc de Loisirs Figeac",
@@ -19,7 +19,7 @@
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "climbing_forest",
     "minAge": 2,
-    "image": null
+    "image": "https://www.hit-occitanie.com/media/hit/ois/ASCMIP046V51PJQX/images/70909-0212-CAP-NATURE-FIGEAC---Figeac--Lot--photo-aspher_os2Svb0.jpg"
   },
   {
     "name": "Airparc Périgord",
@@ -30,7 +30,7 @@
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "climbing_forest",
     "minAge": 3,
-    "image": null
+    "image": "https://www.perigord.com/wp-content/uploads/job-manager-uploads/main_image/2018/04/19024685_10211692449779452_522811419_o-733x550.jpg"
   },
   {
     "name": "La Forêt des Écureuils",
@@ -41,7 +41,7 @@
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "climbing_forest",
     "minAge": 3,
-    "image": null
+    "image": "https://api.cloudly.space/resize/cropratio/640/640/75/aHR0cDovL2NkdDI0Lm1lZGlhLnRvdXJpbnNvZnQuZXUvdXBsb2FkL1ZpYS1mZXJyYXRhLmpwZw==/image.webp"
   },
   {
     "name": "Albi (UNESCO Episcopal City)",
@@ -51,7 +51,7 @@
     "website": "https://www.albi-tourisme.fr/en/",
     "nearCampsite": "Camping La Prade",
     "category": "old_city",
-    "image": null
+    "image": "https://whc.unesco.org/uploads/thumbs/site_1337_0003-400-400-20241028123650.webp"
   },
   {
     "name": "Cordes-sur-Ciel",
@@ -61,7 +61,7 @@
     "website": "https://www.la-toscane-occitane.com/en/commerce-service/office-de-tourisme-accueil-de-cordes-sur-ciel/",
     "nearCampsite": "Camping La Prade",
     "category": "old_city",
-    "image": null
+    "image": "https://laramoneta.com/wp-content/uploads/2023/05/cordes-sur-ciel-001.jpg"
   },
   {
     "name": "Najac (Medieval Bastide)",
@@ -71,7 +71,7 @@
     "website": "https://en.bastides-gorges-aveyron.fr/decouvrir/najac/",
     "nearCampsite": "Camping La Prade",
     "category": "old_city",
-    "image": null
+    "image": "https://c8.alamy.com/comp/2GGHGAA/france-aveyron-12-najac-medieval-village-the-castle-xiiith-century-medieval-bastide-2GGHGAA.jpg"
   },
   {
     "name": "Conques",
@@ -81,7 +81,7 @@
     "website": "https://www.tourisme-conques.fr/en/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "old_city",
-    "image": null
+    "image": "https://www.tourisme-aveyron.com/sites/default/files/upload/a-voir-a-faire/decouvrir-l-aveyron/villes-et-villages/conques/1-conques-decouvrir/diaporama/conques2-t-lambelin.jpg"
   },
   {
     "name": "Figeac",
@@ -91,7 +91,7 @@
     "website": "https://en.tourisme-figeac.com/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "old_city",
-    "image": null
+    "image": "https://www.visit-occitanie.com/uploads/sites/2/2018/9/figeac_d-viet-crt-occitanie.jpg"
   },
   {
     "name": "Aurillac",
@@ -101,7 +101,7 @@
     "website": "https://www.aurillac-tourisme.com/en/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "old_city",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Aurillac-Hotel-de-ville-dpt-Cantal-DSC3-233.jpg"
   },
   {
     "name": "Sarlat-la-Canéda",
@@ -111,7 +111,7 @@
     "website": "https://www.sarlat-tourisme.com/en/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "old_city",
-    "image": null
+    "image": "https://example.com/images/sarlatlacanda-dordogne.jpg"
   },
   {
     "name": "Domme",
@@ -121,7 +121,7 @@
     "website": "https://www.domme-tourisme.com/en/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "old_city",
-    "image": null
+    "image": "https://example.com/images/domme-dordogne.jpg"
   },
   {
     "name": "La Roque-Gageac",
@@ -131,7 +131,7 @@
     "website": "https://www.laroquegageac.com/en/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "old_city",
-    "image": null
+    "image": "https://example.com/images/laroquegageac-dordogne.jpg"
   },
   {
     "name": "Gouffre de Padirac",
@@ -141,7 +141,7 @@
     "website": "https://www.gouffre-de-padirac.com/en/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "cave",
-    "image": null
+    "image": "https://example.com/images/gouffredepadirac-lot.jpg"
   },
   {
     "name": "Grotte de Pech Merle",
@@ -151,7 +151,7 @@
     "website": "https://www.pechmerle.com/en/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "cave",
-    "image": null
+    "image": "https://example.com/images/grottedepechmerle-lot.jpg"
   },
   {
     "name": "Grotte de Lascaux IV",
@@ -161,7 +161,7 @@
     "website": "https://www.lascaux.fr/en",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "cave",
-    "image": null
+    "image": "https://lascaux.fr/wp-content/uploads/2025/04/visiter-grotte-lascaux-iv-1-2.jpg"
   },
   {
     "name": "GR 65 (Camino de Santiago)",
@@ -171,7 +171,7 @@
     "website": "https://www.gr-infos.com/gr65.htm",
     "nearCampsite": "Camping La Prade",
     "category": "hiking_trail",
-    "image": null
+    "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNzczNzQzNDMvYjBhNDc0YTJmNjkxMWEzMWE2NTU0ZTNmMDcyODdjMTEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoxMDgwLCJoZWlnaHQiOjcwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0="
   },
   {
     "name": "GR 46 (Lot Valley)",
@@ -181,7 +181,7 @@
     "website": "https://www.gr-infos.com/gr46.htm",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "hiking_trail",
-    "image": null
+    "image": "https://lh3.googleusercontent.com/Xyc7poRU_NGCFcjlW-TpFYtEmi9KvXRqXB7Dod1H1kUJhCZwl_XqC6B5GJB59tE4tvoiHoBUzvVzfX_rBpvHs6PHHgrkrEGvJfK-lA"
   },
   {
     "name": "GR 6 (Dordogne Valley)",
@@ -191,7 +191,7 @@
     "website": "https://www.gr-infos.com/gr6.htm",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "hiking_trail",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/60/a1/00/caption.jpg?w=900&h=500&s=1"
   },
   {
     "name": "Parc Animalier de Gramat",
@@ -201,7 +201,7 @@
     "website": "https://www.gramat-parc-animalier.com/en/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "family_activity",
-    "image": null
+    "image": "https://www.camping-lot-eauvive.com/uploads/images/Tourisme/Parc-Gramat/parc-animalier-gramat-depliant-verso-2018.jpg"
   },
   {
     "name": "Aquarium du Périgord Noir",
@@ -211,7 +211,7 @@
     "website": "https://www.aquariumduperigordnoir.fr/en/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "family_activity",
-    "image": null
+    "image": "https://www.perigord.com/wp-content/uploads/job-manager-uploads/main_image/2022/05/Alligator-albinos--550x550.jpeg"
   },
   {
     "name": "AAGAC Outdoor Sports Base",
@@ -221,7 +221,7 @@
     "website": "https://en.bastides-gorges-aveyron.fr/activites/aagac-canoe-kayak/",
     "nearCampsite": "Camping La Prade",
     "category": "canoe",
-    "image": null
+    "image": "https://www.activites-loisirs-aveyron.com/DesktopModules/NBright/NBrightData/NBrightThumb.ashx?src=/Portals/0/NBrightUpload/activity/210322121947eb6jfk7n.jpg&w=540&h=400"
   },
   {
     "name": "Evasion Canoë",
@@ -231,7 +231,7 @@
     "website": "https://www.tourisme-tarnetgaronne.fr/en/offers/evasion-canoe-saint-antonin-noble-val-en-2357896/",
     "nearCampsite": "Camping La Prade",
     "category": "canoe",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/7f/bf/22/chaussee-de-roumegous.jpg?w=1200&h=1200&s=1"
   },
   {
     "name": "Escapad'O Canoë-Kayak",
@@ -241,7 +241,7 @@
     "website": "https://www.escapado-penne.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "canoe",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/29/24/a6/le-village-de-penne-et.jpg?w=900&h=500&s=1"
   },
   {
     "name": "ASVOLT – Base Canoë Nature",
@@ -251,7 +251,7 @@
     "website": "https://www.asvolt.fr/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "canoe",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/63/59/d0/balade-en-canoe-et-decouverte.jpg?w=500&h=500&s=1"
   },
   {
     "name": "Passion Aventure (Célé river)",
@@ -261,7 +261,7 @@
     "website": "https://www.location-canoe-cele.com/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "canoe",
-    "image": null
+    "image": "https://www.cahorsvalleedulot.com/wp-content/uploads/external/91b9d88869028b8021b2eeed2141e2bb-photo-couverture-2-1600x0.jpg"
   },
   {
     "name": "Canoës Loisirs Vitrac",
@@ -311,7 +311,7 @@
     "website": "https://www.chateau-penne.com/",
     "nearCampsite": "Camping La Prade",
     "category": "castle",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Penne_du_Tarn.JPG"
   },
   {
     "name": "Château de Brousse-le-Château",
@@ -321,7 +321,7 @@
     "website": "https://www.tourisme-aveyron.com/en/diffusio/sites-visit/chateau-de-brousse-brousse-le-chateau_TFO18694574987",
     "nearCampsite": "Camping La Prade",
     "category": "castle",
-    "image": null
+    "image": "https://medias.hit.enaveyron.fr/fiches/21384/images/341534_1e222646-2ecd-43a1-bba0-5ac8585b903f/1920.webp"
   },
   {
     "name": "Château de Mauriac",
@@ -331,7 +331,7 @@
     "website": "https://chateaudemauriac.com/",
     "nearCampsite": "Camping La Prade",
     "category": "castle",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Ch%C3%A2teau_de_Mauriac_commune_de_Senouillac_2.JPG"
   },
   {
     "name": "Château de Valon",
@@ -341,7 +341,7 @@
     "website": "https://www.tourisme-en-aubrac.com/en/destination/villages-territoires/valon-et-son-chateau/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "castle",
-    "image": null
+    "image": "https://medias.hit.enaveyron.fr/fiches/18606/images/260199_a7099a10-569d-4105-862b-0a18b63db91c/1920.webp"
   },
   {
     "name": "Château d'Anjony",
@@ -351,7 +351,7 @@
     "website": "https://www.anjony.fr/en/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "castle",
-    "image": null
+    "image": "https://www.france-voyage.com/visuals/photos/tournemire-anjony-castles-39912_w600.webp"
   },
   {
     "name": "Château de Conros",
@@ -361,7 +361,7 @@
     "website": "https://www.chateau-conros.com",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "castle",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Fa%C3%A7ade_arri%C3%A8re_du_ch%C3%A2teau_de_Conros.JPG"
   },
   {
     "name": "Château de Pesteils",
@@ -371,7 +371,7 @@
     "website": "https://www.chateau-pesteils-cantal.com/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "castle",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Chateau_de_Pesteil.jpg"
   },
   {
     "name": "Château de Beynac",
@@ -401,7 +401,7 @@
     "website": "https://www.milandes.com/en/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "castle",
-    "image": null
+    "image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3504837534674521894"
   },
   {
     "name": "Les Jardins des Martels",
@@ -411,7 +411,7 @@
     "website": "https://www.jardinsdesmartels.com/",
     "nearCampsite": "Camping La Prade",
     "category": "garden",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/%28Giroussens%29_Temple_du_Lotus_aux_jardins_des_Martels.jpg/1200px-%28Giroussens%29_Temple_du_Lotus_aux_jardins_des_Martels.jpg"
   },
   {
     "name": "Jardin des Paradis",
@@ -421,7 +421,7 @@
     "website": "https://www.la-toscane-occitane.com/en/visiter/parcs-et-jardins/le-jardin-des-paradis/",
     "nearCampsite": "Camping La Prade",
     "category": "garden",
-    "image": null
+    "image": "https://www.tourisme-tarn.com/uk/wp-content/uploads/sites/15/wpetourisme/7376729-diaporama.jpg"
   },
   {
     "name": "Jardins de Marqueyssac",
@@ -431,7 +431,7 @@
     "website": "https://www.marqueyssac.com/?lang=en",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
-    "image": null
+    "image": "https://www.perigord.com/wp-content/uploads/job-manager-uploads/main_image/2017/04/img0-1.jpg"
   },
   {
     "name": "Jardins d’Eyrignac",
@@ -441,7 +441,7 @@
     "website": "https://www.eyrignac.com/en/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
-    "image": null
+    "image": "https://cdn.iris-etourism.io/uploads/lascaux/sizes/8a7/olivier-anger---2eme-photo-redim-800x520.webp"
   },
   {
     "name": "Jardins Panoramiques de Limeuil",
@@ -451,7 +451,7 @@
     "website": "https://www.jardins-panoramiques-limeuil.com/en/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
-    "image": null
+    "image": "https://www.perigord.com/wp-content/uploads/job-manager-uploads/main_image/2021/09/panorama_web.jpg"
   },
   {
     "name": "Les Jardins de Colette",
@@ -461,7 +461,7 @@
     "website": "https://www.lesjardinsdecolette.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
-    "image": null
+    "image": "https://www.french-gardens.com/images/places/fullsize/jardins-de-colette.jpg"
   },
   {
     "name": "Jardins du Château de la Treyne",
@@ -471,7 +471,7 @@
     "website": "https://www.chateaudelatreyne.com/en/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
-    "image": null
+    "image": "https://cdn.laetis.fr/i/crtocc/detail/https://www.hit-occitanie.com/media/hit/ois/PCU3191CDT460001/images/838DC5BB-3811-409E-AD88-7E3FA845F262.jpg"
   },
   {
     "name": "Parc Rochegude",
@@ -481,7 +481,7 @@
     "website": "https://www.albi-tourisme.fr/en/parc-rochegude",
     "nearCampsite": "Camping La Prade",
     "category": "garden",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/82/ab/4e/le-parc-rochegude.jpg?w=900&h=500&s=1"
   },
   {
     "name": "Le Jardin des Bêtes (animal & garden park)",
@@ -491,7 +491,7 @@
     "website": "https://www.lejardindesbetes.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "garden",
-    "image": null
+    "image": "https://img.artpal.com/383572/975-23-3-30-1-54-36m.jpg"
   },
   {
     "name": "Les Jardins Secrets de Cahors",
@@ -501,9 +501,8 @@
     "website": "https://www.tourisme-cahors.com/en/jardins-secrets",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "garden",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Les_jardins_secrets_de_Cahors_%28Lot%29_-_05.jpg"
   },
-
   {
     "name": "Musée Toulouse-Lautrec",
     "lat": 43.9296,
@@ -512,7 +511,7 @@
     "website": "https://museetoulouselautrec.net/en/",
     "nearCampsite": "Camping La Prade",
     "category": "museum",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/%28Albi%29_Entr%C3%A9e_du_Mus%C3%A9e_Toulouse-Lautrec_sur_la_place_sainte_C%C3%A9cile.jpg/1200px-%28Albi%29_Entr%C3%A9e_du_Mus%C3%A9e_Toulouse-Lautrec_sur_la_place_sainte_C%C3%A9cile.jpg"
   },
   {
     "name": "Musée Soulages",
@@ -522,7 +521,7 @@
     "website": "https://musee-soulages-rodez.fr/en/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "museum",
-    "image": null
+    "image": "https://medias.hit.enaveyron.fr/fiches/7189/images/82374_98ea3792-5fa7-4c51-aa35-b31c33cd931d/1920.webp"
   },
   {
     "name": "Musée Fenaille",
@@ -532,7 +531,7 @@
     "website": "https://musee-fenaille-rodez.fr/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "museum",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Rodez_-_Mus%C3%A9e_Fenaille_-01.JPG"
   },
   {
     "name": "Maison des Vins de Gaillac",
@@ -542,7 +541,7 @@
     "website": "https://www.la-toscane-occitane.com/en/commerce-service/maison-des-vins-de-gaillac/",
     "nearCampsite": "Camping La Prade",
     "category": "museum",
-    "image": null
+    "image": "https://c8.alamy.com/comp/JD03M0/maison-des-vins-gaillac-tarn-occitanie-france-JD03M0.jpg"
   },
   {
     "name": "Musée de la Mine Lucien Mazars",
@@ -552,7 +551,7 @@
     "website": "https://www.guide-tarn-aveyron.com/en/tourism/discover/tourist-sites/museums/aubin-527/musee-de-la-mine-lucien-mazars-1156.html",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "museum",
-    "image": null
+    "image": "https://medias.hit.enaveyron.fr/fiches/17494/images/222133_f2dee17c-8382-4e14-8835-9f3fb3c82a0b/600.webp"
   },
   {
     "name": "Musée Champollion – Les Écritures du Monde",
@@ -562,7 +561,7 @@
     "website": "https://musee-champollion.fr/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "museum",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Facade_musee_champollion_figeac.jpg"
   },
   {
     "name": "National Prehistory Museum",
@@ -572,7 +571,7 @@
     "website": "https://www.musee-prehistoire-eyzies.fr/en",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "museum",
-    "image": null
+    "image": "https://www.northofthedordogne.com/images/places/fullsize/musee-national-de-prehistoire.jpg"
   },
   {
     "name": "Musée de la Vieille Prune (Distillerie Louis Roque)",
@@ -582,7 +581,7 @@
     "website": "https://www.lavieilleprune.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "museum",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/74/31/63/distillerie-louis-roque.jpg?w=1200&h=-1&s=1"
   },
   {
     "name": "Musée Agricole & Automobile du Lot",
@@ -592,7 +591,7 @@
     "website": "http://www.musee-agricole-salviac.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "museum",
-    "image": null
+    "image": "https://www.hit-occitanie.com/media/hit/ois/PCU3222CDT460001/images/Musee-B.Jouclar.jpg"
   },
   {
     "name": "Château de Castelnaud – Museum of Medieval Warfare",
@@ -602,7 +601,7 @@
     "website": "https://castelnaud.com/?lang=en",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "museum",
-    "image": null
+    "image": "https://warfarehistorynetwork.com/wp-content/uploads/2016/01/M-Militaria-1-4C%EF%80%A2Aug06-2000x1343.jpg"
   },
   {
     "name": "Jardins de Marqueyssac",
@@ -612,7 +611,7 @@
     "website": "https://www.marqueyssac.com/en/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
-    "image": null
+    "image": "https://c8.alamy.com/comp/2ATJTPM/france-dordogne-vezac-jardins-de-marqueyssac-view-from-belvedere-toward-dordogne-river-and-la-roque-gageac-village-2ATJTPM.jpg"
   },
   {
     "name": "Parc Floral de Cahors",
@@ -622,7 +621,7 @@
     "website": "https://www.tourisme-lot.com/en/parc-floral-cahors/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "garden",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/e6/92/59/cathedrale-saint-etienne.jpg?w=900&h=500&s=1"
   },
   {
     "name": "Jardins de l'Évêché",
@@ -642,7 +641,7 @@
     "website": "https://www.parc-prehistoire.com/en/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
-    "image": null
+    "image": "https://images.ctfassets.net/zfxytrk6nf7m/o24wTy7STe28cq2AyeQG4/15c9b70b37f74304a35892d3a3971c97/Copyright--_BROCHARD_CRTA-Les_Eyzies_de_Tayac_et_son_musee_International_de_la_Prehistoire_situe_en_bordure_de_la_Vezere_-_D.jpg?w=700&h=300&q=90&fl=progressive&fit=fill"
   },
   {
     "name": "Jardin des Plantes de Sarlat",
@@ -652,7 +651,7 @@
     "website": "https://www.sarlat-tourisme.com/en/gardens/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
-    "image": null
+    "image": "https://lb-eu.vizzit.com/26989a/Ak41tczf0u5ian8e/miniPhotos/Ak41tczf0u5ian8e_1.jpg?638896859680000000"
   },
   {
     "name": "Natura Game",
@@ -663,7 +662,7 @@
     "nearCampsite": "Camping La Prade",
     "category": "climbing_forest",
     "minAge": 3,
-    "image": null
+    "image": "https://cdt31.media.tourinsoft.eu/upload/NATURA-GAME-1-CASTELMAUROU-2.jpg"
   },
   {
     "name": "La Belle Verte",
@@ -674,7 +673,7 @@
     "nearCampsite": "Camping La Prade",
     "category": "climbing_forest",
     "minAge": 3,
-    "image": null
+    "image": "https://media.vrbo.com/lodging/116000000/115340000/115336400/115336317/c5abc3ce.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
   },
   {
     "name": "Sequoia Vertigo",
@@ -685,7 +684,7 @@
     "nearCampsite": "Camping La Prade",
     "category": "climbing_forest",
     "minAge": 3,
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/5a/ed/bc/perches-a-25-metres-de.jpg?w=1200&h=1200&s=1"
   },
   {
     "name": "AccroCamp Toulouse",
@@ -696,7 +695,7 @@
     "nearCampsite": "Camping La Prade",
     "category": "climbing_forest",
     "minAge": 3,
-    "image": null
+    "image": "https://cdn.laetis.fr/i/crtocc/detail/https://www.hit-occitanie.com/media/hit/ois/LOIMID031V50W10K/images/Toulouse1.jpeg"
   },
   {
     "name": "Tépacap Mérignac",
@@ -707,7 +706,7 @@
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "climbing_forest",
     "minAge": 3,
-    "image": null
+    "image": "https://www.tiktok.com/api/img/?itemId=7493206616125246742&location=0&aid=1988"
   },
   {
     "name": "Oc’Aventures",
@@ -718,7 +717,7 @@
     "nearCampsite": "Camping La Prade",
     "category": "climbing_forest",
     "minAge": 3,
-    "image": null
+    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/vMQ-76rkh0CKmEJ4dZhSEQ/348s.jpg"
   },
   {
     "name": "Tarz’en Arbre",
@@ -729,7 +728,7 @@
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "climbing_forest",
     "minAge": 3,
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/59/b9/08/caption.jpg?w=900&h=-1&s=1"
   },
   {
     "name": "Agrip Aventure",
@@ -740,7 +739,7 @@
     "nearCampsite": "Camping La Prade",
     "category": "climbing_forest",
     "minAge": 3,
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/0b/42/02/img-20180807-112617044.jpg?w=800&h=600&s=1"
   },
   {
     "name": "Cap Nature Rocamadour",
@@ -751,7 +750,7 @@
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "climbing_forest",
     "minAge": 3,
-    "image": null
+    "image": "https://www.alltrails.com/_next/image?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNzMwMTc1ODAvZTE1MGZlNjU3NzUwN2NkZDFkNDA3ZDA2Y2I1NjhmYWYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoxMDgwLCJoZWlnaHQiOjcwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=3840&q=75"
   },
   {
     "name": "Monkey’s Forest",
@@ -762,7 +761,7 @@
     "nearCampsite": "Camping La Prade",
     "category": "climbing_forest",
     "minAge": 3,
-    "image": null
+    "image": "https://www.guide-tarn-aveyron.com/_bibli/articlesPage/156/images/adobestock-jacky-jeannet-cascade-petrifiante.jpg?v=ficheArticle&width=416&height=275&pixelRatio=2.6250"
   },
   {
     "name": "Carcassonne (Cité Médiévale)",
@@ -772,7 +771,7 @@
     "website": "https://www.tourisme-carcassonne.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "old_city",
-    "image": null
+    "image": "https://www.tourisme-carcassonne.fr/assets/uploads/2021/12/adobestock-60253536-redi-1170x638.jpeg"
   },
   {
     "name": "Mirepoix",
@@ -782,7 +781,7 @@
     "website": "https://www.tourisme-mirepoix.com/",
     "nearCampsite": "Camping La Prade",
     "category": "old_city",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Vue_Mirepoix_%28Ari%C3%A8ge%29.jpg/1200px-Vue_Mirepoix_%28Ari%C3%A8ge%29.jpg"
   },
   {
     "name": "Moissac",
@@ -792,7 +791,7 @@
     "website": "https://www.moissac-terresdesconfluences.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "old_city",
-    "image": null
+    "image": "https://c8.alamy.com/comp/B5A0TM/historic-old-town-of-moissac-in-tarn-et-garonne-region-south-west-B5A0TM.jpg"
   },
   {
     "name": "Lauzerte",
@@ -802,7 +801,7 @@
     "website": "https://www.lauzerte-tourisme.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "old_city",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Lauzerte.png"
   },
   {
     "name": "Bruniquel",
@@ -812,7 +811,7 @@
     "website": "https://www.bruniquel.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "old_city",
-    "image": null
+    "image": "https://live.staticflickr.com/3855/32839038220_04bf2477c7_b.jpg"
   },
   {
     "name": "Castelnau-de-Montmiral",
@@ -822,7 +821,7 @@
     "website": "https://www.la-toscane-occitane.com/",
     "nearCampsite": "Camping La Prade",
     "category": "old_city",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Place_Castelnau-de-Montmiral.jpg"
   },
   {
     "name": "Puycelsi",
@@ -832,7 +831,7 @@
     "website": "https://www.la-toscane-occitane.com/",
     "nearCampsite": "Camping La Prade",
     "category": "old_city",
-    "image": null
+    "image": "https://c8.alamy.com/comp/R23KDE/ruin-of-the-village-castle-puycelsi-tarn-midi-pyrenees-occitanie-france-R23KDE.jpg"
   },
   {
     "name": "Auvillar",
@@ -842,7 +841,7 @@
     "website": "https://www.auvillar.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "old_city",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/France_-_Auvillar_-_Porte_de_l%27horloge_-_2006-01-15.JPG"
   },
   {
     "name": "Collonges-la-Rouge",
@@ -852,7 +851,7 @@
     "website": "https://www.collonges-la-rouge.fr/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "old_city",
-    "image": null
+    "image": "https://mediaim.expedia.com/destination/1/fc4d8f753fa63ade665d9e3c94be1a6f.jpg"
   },
   {
     "name": "Saint-Cirq-Lapopie",
@@ -862,7 +861,7 @@
     "website": "https://www.saint-cirqlapopie.com/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "old_city",
-    "image": null
+    "image": "https://www.cahorsvalleedulot.com/wp-content/uploads/2023/10/lot-tourisme-teddy-verneuil-scaled-1600x784-1725890015.jpg"
   },
   {
     "name": "Grotte de Niaux",
@@ -872,7 +871,7 @@
     "website": "https://www.grotte-niaux.com/",
     "nearCampsite": "Camping La Prade",
     "category": "cave",
-    "image": null
+    "image": "https://www.sites-touristiques-ariege.fr/wp-content/uploads/2020/09/090903_SESTA_GrotteNiaux_Porche_Credit_Sesta.jpg"
   },
   {
     "name": "Grotte du Mas-d’Azil",
@@ -882,7 +881,7 @@
     "website": "https://www.grotte-mas-dazil.com/",
     "nearCampsite": "Camping La Prade",
     "category": "cave",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Mas-d%27Azil-grotte_02.JPG"
   },
   {
     "name": "Grotte de Gargas",
@@ -892,7 +891,7 @@
     "website": "https://www.grottesdegargas.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "cave",
-    "image": null
+    "image": "https://www.hit-occitanie.com/media/hit/ois/PCUMID065FS00002/images/GARGAS-053.jpg"
   },
   {
     "name": "Grotte de Clamouse",
@@ -902,7 +901,7 @@
     "website": "https://www.clamouse.com/",
     "nearCampsite": "Camping La Prade",
     "category": "cave",
-    "image": null
+    "image": "https://c8.alamy.com/comp/2AKC3GJ/france-herault-saint-jean-de-fos-clamouse-cave-in-gorges-of-the-herault-grand-site-the-jellyfish-symbol-of-the-cave-2AKC3GJ.jpg"
   },
   {
     "name": "Grotte des Demoiselles",
@@ -912,7 +911,7 @@
     "website": "http://www.grottedesdemoiselles.com/",
     "nearCampsite": "Camping La Prade",
     "category": "cave",
-    "image": null
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/02/36/3a/b3/gorges-de-l-herault-sous.jpg"
   },
   {
     "name": "Grotte de Rouffignac",
@@ -922,7 +921,7 @@
     "website": "https://www.grottederouffignac.fr/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "cave",
-    "image": null
+    "image": "https://cdn.iris-etourism.io/uploads/lascaux/d4a/grottederouffignac1-plassard.webp"
   },
   {
     "name": "Grotte de Labeil",
@@ -932,7 +931,7 @@
     "website": "https://www.grotte-de-labeil.com/",
     "nearCampsite": "Camping La Prade",
     "category": "cave",
-    "image": null
+    "image": "https://s3-media0.fl.yelpcdn.com/bphoto/vrgp40-LF33K_h8dRCtECg/348s.jpg"
   },
   {
     "name": "Grotte Pair-non-Pair",
@@ -942,7 +941,7 @@
     "website": "https://www.grotte-pair-non-pair.fr/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "cave",
-    "image": null
+    "image": "https://www.gironde-tourisme.com/wp-content/uploads/wpetourisme/Grotte-Pair-non-Pair-Prignac-800x600.jpg"
   },
   {
     "name": "Grotte Célestine",
@@ -952,7 +951,7 @@
     "website": "https://www.grotte-celestine.fr/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "cave",
-    "image": null
+    "image": "https://www.grottesdefrance.org/grottes-france/uploads/2020/05/grotte-celestine-rauzan-gironde.jpg"
   },
   {
     "name": "Gouffre d’Esparros",
@@ -962,7 +961,7 @@
     "website": "https://www.gouffresparros.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "cave",
-    "image": null
+    "image": "https://www.guide-toulouse-pyrenees.com/_bibli/articlesPage/156/images/1-gouffre-d-esparros-lesley-williamson.jpg?v=ficheArticle&width=416&height=275&pixelRatio=2.6250"
   },
   {
     "name": "GR 861 Via Garona",
@@ -972,7 +971,7 @@
     "website": "https://www.via-garona.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "hiking_trail",
-    "image": null
+    "image": "https://www.alltrails.com/_next/image?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjYwNjY4NDQvNTAwMGRhMzkxMzcxNDJhMTM4YjFjNzllOGYzYzdiYTIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoxMDgwLCJoZWlnaHQiOjcwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=3840&q=75"
   },
   {
     "name": "GR 10 (Foix–Ax section)",
@@ -982,7 +981,7 @@
     "website": "https://www.gr10.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "hiking_trail",
-    "image": null
+    "image": "http://mapscompany.com/cdn/shop/files/topoguide-de-randonnee-sentier-cathare-chemin-des-bonshommes-gr107-gr367-ffr-guide-de-randonnee-ffr-federation-francaise-de-randonnee-851098.jpg?v=1741997288"
   },
   {
     "name": "Pic Saint-Loup ascent",
@@ -992,7 +991,7 @@
     "website": "https://www.pic-saint-loup.com/",
     "nearCampsite": "Camping La Prade",
     "category": "hiking_trail",
-    "image": null
+    "image": "https://www.escalosud.com/wp-content/uploads/P1070534-e1467232136300.jpg"
   },
   {
     "name": "Cirque de Navacelles rim",
@@ -1002,7 +1001,7 @@
     "website": "https://www.cirque-navacelles.com/",
     "nearCampsite": "Camping La Prade",
     "category": "hiking_trail",
-    "image": null
+    "image": "https://thumbs.dreamstime.com/b/watermill-vis-river-circus-navacelles-cirque-de-navacelles-cevennes-national-park-gard-herault-france-unesco-world-158071656.jpg"
   },
   {
     "name": "Lac du Salagou circuits",
@@ -1012,7 +1011,7 @@
     "website": "https://www.lac-salagou.com/",
     "nearCampsite": "Camping La Prade",
     "category": "hiking_trail",
-    "image": null
+    "image": "https://laramoneta.com/wp-content/uploads/2024/04/lac-du-salagou-circuit-les-vailhes-000.jpg"
   },
   {
     "name": "GR 652 Vallée du Célé",
@@ -1022,7 +1021,7 @@
     "website": "https://www.gr-infos.com/gr652.htm",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "hiking_trail",
-    "image": null
+    "image": "https://mapscompany.com/cdn/shop/products/topoguide-de-randonnee-sentier-st-jacques-de-figeac-a-moissac-gr65651652-ffr-guide-de-randonnee-ffr-federation-francaise-de-randonnee-340783.jpg?v=1684182271&width=1080"
   },
   {
     "name": "Tour du Lac de Bouconne",
@@ -1032,7 +1031,7 @@
     "website": "https://www.bouconne.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "hiking_trail",
-    "image": null
+    "image": "https://www.alltrails.com/_next/image?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzk5MzY3ODMvOTFiYjhlMzk0N2I4MmViOTMzNjk5MDQ5Mjc4NDIzNjEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoxMDgwLCJoZWlnaHQiOjcwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=3840&q=75"
   },
   {
     "name": "Mont Gargan loop",
@@ -1042,7 +1041,7 @@
     "website": "https://www.tourisme-hautevienne.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "hiking_trail",
-    "image": null
+    "image": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjM5Njc3MzMvM2Y1ZjQ1ZDJlZGY3ZmEzZjQxOGMyYTllOWM1Y2Q2NzcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0="
   },
   {
     "name": "Dune du Pilat ridge",
@@ -1052,7 +1051,7 @@
     "website": "https://www.dunedupilat.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "hiking_trail",
-    "image": null
+    "image": "https://c8.alamy.com/comp/2E19AY6/meandering-shape-pattern-in-sand-erosion-of-dune-du-pilat-beach-desert-in-arcachon-la-teste-de-buch-gironde-nouvelle-aquitaine-france-2E19AY6.jpg"
   },
   {
     "name": "Canal du Midi Canalettes",
@@ -1062,7 +1061,7 @@
     "website": "https://www.canal-du-midi.com/",
     "nearCampsite": "Camping La Prade",
     "category": "hiking_trail",
-    "image": null
+    "image": "https://all-andorra.com/wp-content/uploads/2023/12/occitania_top-resorts-min.png"
   },
   {
     "name": "Zoo African Safari",
@@ -1072,7 +1071,7 @@
     "website": "https://www.zoo-africansafari.com/",
     "nearCampsite": "Camping La Prade",
     "category": "family_activity",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/1e/42/be/zoo-african-safari.jpg?w=1200&h=-1&s=1"
   },
   {
     "name": "Parc Animalier des Pyrénées",
@@ -1082,7 +1081,7 @@
     "website": "https://www.parc-animalier-pyrenees.com/",
     "nearCampsite": "Camping La Prade",
     "category": "family_activity",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Parc_animalier_des_Pyr%C3%A9n%C3%A9es_d%27Argel%C3%A8s-Gazost_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg"
   },
   {
     "name": "Montpellier Zoo – Parc Lunaret",
@@ -1092,7 +1091,7 @@
     "website": "https://zoo.montpellier.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "family_activity",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/24/84/40/enclos-des-girafes-au.jpg?w=900&h=500&s=1"
   },
   {
     "name": "Parc Zoo du Reynou",
@@ -1102,7 +1101,7 @@
     "website": "https://www.parczooreynou.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "family_activity",
-    "image": null
+    "image": "https://api.cloudly.space/resize/cropratio/640/640/75/aHR0cHM6Ly9jZHQ0MC5tZWRpYS50b3VyaW5zb2Z0LmV1L3VwbG9hZC8xOTEwMDAxMDItNi5qcGc=/image.webp"
   },
   {
     "name": "Walygator Sud-Ouest",
@@ -1112,7 +1111,7 @@
     "website": "https://www.walygatorparc.com/sud-ouest/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "family_activity",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Ch%C3%A2teau_de_Caudoin%2C_Roquefort%2C_Lot-et-Garonne%2C_d%C3%A9cembre_2024.jpg"
   },
   {
     "name": "Aquarium du Limousin",
@@ -1122,7 +1121,7 @@
     "website": "https://www.aquariumdulimousin.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "family_activity",
-    "image": null
+    "image": "https://media.gettyimages.com/id/952577626/photo/maison-a-colombage-cour-du-temple-limoges-haute-vienne-limousin-france.jpg?s=612x612&w=gi&k=20&c=1BHCpjbDKsnHAz9zQLkHYWWKf_fFgFG2S478sZKQ-ys="
   },
   {
     "name": "Parc Le Bournat",
@@ -1132,7 +1131,7 @@
     "website": "https://www.parclebournat.fr/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "family_activity",
-    "image": null
+    "image": "http://cdt24.media.tourinsoft.eu/upload/Copie-de-Chenilles-ParcduBournat.JPG"
   },
   {
     "name": "Aqualand Agen",
@@ -1142,7 +1141,7 @@
     "website": "https://www.aqualand.fr/agen/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "family_activity",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/3e/ca/27/le-zig-zag-descente-avec.jpg?w=1200&h=-1&s=1"
   },
   {
     "name": "Galaxie Laser & Trampoline",
@@ -1152,7 +1151,7 @@
     "website": "https://galaxie-montauban.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "family_activity",
-    "image": null
+    "image": "https://www.tiktok.com/api/img/?itemId=7333242244440411434&location=0&aid=1988"
   },
   {
     "name": "Planète Océan Montpellier",
@@ -1162,7 +1161,7 @@
     "website": "https://planet-ocean.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "family_activity",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/f1/f2/f3/pret-pour-une-exploration.jpg?w=1200&h=-1&s=1"
   },
   {
     "name": "Canoë le Moulin",
@@ -1172,7 +1171,7 @@
     "website": "https://www.herault-canoe.com/",
     "nearCampsite": "Camping La Prade",
     "category": "canoe",
-    "image": null
+    "image": "https://ak-d.tripcdn.com/images/0ww4f12000ar7wqrqEBD9_W_100_100_Q70.jpg?proc=source%2Ftrip&proc=source%2Ftrip"
   },
   {
     "name": "Canoë Rapido",
@@ -1182,7 +1181,7 @@
     "website": "https://www.canoerapido.com/",
     "nearCampsite": "Camping La Prade",
     "category": "canoe",
-    "image": null
+    "image": "https://canoe-rapido.com/wp-content/uploads/2024/04/canoerapido-visuel-home-la_descente_et_ses_rapides.webp"
   },
   {
     "name": "Kayapuna",
@@ -1192,7 +1191,7 @@
     "website": "https://www.kayapuna.com/",
     "nearCampsite": "Camping La Prade",
     "category": "canoe",
-    "image": null
+    "image": "https://canoe-kayapuna.com/wp-content/uploads/2018/04/fond-canoe-kayapuna-2.jpg"
   },
   {
     "name": "Vallée des Moulins Canoë",
@@ -1202,7 +1201,7 @@
     "website": "https://www.valleedumoulin.com/",
     "nearCampsite": "Camping La Prade",
     "category": "canoe",
-    "image": null
+    "image": "https://www.canoe-herault.com/wp-content/uploads/2025/07/VDM5EV2-110.jpg"
   },
   {
     "name": "Kalapca Loisirs",
@@ -1212,7 +1211,7 @@
     "website": "https://www.kalapca.com/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "canoe",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/a0/58/2d/kalapca-loisirs.jpg?w=1200&h=-1&s=1"
   },
   {
     "name": "Canoë Saint Cirq",
@@ -1222,7 +1221,7 @@
     "website": "https://canoe-saint-cirq.com/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "canoe",
-    "image": null
+    "image": "https://www.cahorsvalleedulot.com/wp-content/uploads/tourinsoft/9df3531ff5943690299c44062b28aeb8-paddle-canoe-Lotaventure-St-Cirq-2-1600x809.jpg"
   },
   {
     "name": "Canoë Le Répère",
@@ -1232,7 +1231,7 @@
     "website": "https://www.lerepere-canoe.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "canoe",
-    "image": null
+    "image": "https://www.france-voyage.com/visuals/props/discovery-cliffs-dordogne-canoe-near-sarlat-203843-1_w400.webp"
   },
   {
     "name": "Canoës Port-Sainte-Foy",
@@ -1242,7 +1241,7 @@
     "website": "https://www.canoe-france.com/port-sainte-foy/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "canoe",
-    "image": null
+    "image": "https://img.oastatic.com/img2/81264355/max/variant.jpg"
   },
   {
     "name": "Bordeaux Canoë",
@@ -1252,7 +1251,7 @@
     "website": "https://bordeauxcanoe.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "canoe",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/20/5a/71/bordeaux-canoe.jpg?w=500&h=500&s=1"
   },
   {
     "name": "Canoë L’Aventure Vienne",
@@ -1262,7 +1261,7 @@
     "website": "https://www.laventure87.fr/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "canoe",
-    "image": null
+    "image": "https://woody.cloudly.space/app/uploads/lacdesaintpardoux/2024/05/thumbs/Canoe-Lac-de-Saint-Pardoux-1-1-640x640.webp"
   },
   {
     "name": "Cité de Carcassonne",
@@ -1272,7 +1271,7 @@
     "website": "https://www.remparts-carcassonne.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "castle",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/1_carcassonne_aerial_2016.jpg"
   },
   {
     "name": "Château de Foix",
@@ -1282,7 +1281,7 @@
     "website": "https://www.chateau-foix.com/",
     "nearCampsite": "Camping La Prade",
     "category": "castle",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Chateau_de_Foix_FRA_001.JPG"
   },
   {
     "name": "Château de Montségur",
@@ -1292,7 +1291,7 @@
     "website": "https://www.montsegur.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "castle",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Ch%C3%A2teau_de_Monts%C3%A9gur_-_vue_a%C3%A9rienne.jpg"
   },
   {
     "name": "Château de Bonaguil",
@@ -1302,7 +1301,7 @@
     "website": "https://chateau-bonaguil.com/",
     "nearCampsite": "Camping La Prade",
     "category": "castle",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Saint-Front-sur-L%C3%A9mance_-_Ch%C3%A2teau_de_Bonaguil_-_Vue_d%27ensemble.jpg"
   },
   {
     "name": "Château de Roquetaillade",
@@ -1312,7 +1311,7 @@
     "website": "https://roquetaillade.eu/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "castle",
-    "image": null
+    "image": "https://www.gironde-tourisme.com/wp-content/uploads/wpetourisme/roquetaillade1.jpg"
   },
   {
     "name": "Château de Puyguilhem",
@@ -1322,7 +1321,7 @@
     "website": "https://www.chateau-puyguilhem.fr/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "castle",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Villars_Puyguilhem_%282%29.JPG"
   },
   {
     "name": "Château de Biron",
@@ -1332,7 +1331,7 @@
     "website": "https://www.chateaudebiron.fr/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "castle",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Biron_-_Ch%C3%A2teau_-1.JPG/1200px-Biron_-_Ch%C3%A2teau_-1.JPG"
   },
   {
     "name": "Château de Foissac",
@@ -1342,7 +1341,7 @@
     "website": "https://www.grotte-foissac.com/chateau",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "castle",
-    "image": null
+    "image": "https://medias.hit.enaveyron.fr/fiches/5960/images/63087_28a8be0a-03b8-4470-8e09-0c0eb7a46df3/1920.webp"
   },
   {
     "name": "Tour Jean XXII (Cahors)",
@@ -1352,7 +1351,7 @@
     "website": "https://www.tourisme-cahors.com/",
     "nearCampsite": "Camping Moulin de Chaules",
     "category": "castle",
-    "image": null
+    "image": "https://www.cahorsvalleedulot.com/wp-content/uploads/external/d15abb8d7846191270a06fb6b6b67c76-170607-Tour-Jean-XXII--V_-Seguin---Office-de-Tourisme-Cahors---Vallee-du-Lot--1--1600x0.jpg"
   },
   {
     "name": "Château de Rochechouart",
@@ -1362,7 +1361,7 @@
     "website": "https://www.musee-lart-comtemporaine.fr/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "castle",
-    "image": null
+    "image": "https://musee-rochechouart.com/wp-content/uploads/2024/09/Chateau_09-jpg.webp"
   },
   {
     "name": "Jardin des Plantes de Montpellier",
@@ -1372,7 +1371,7 @@
     "website": "https://jardin-plantes.mnhn.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "garden",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Montpellier_jardin_plantes3.jpg"
   },
   {
     "name": "Jardin Japonais Pierre Baudis",
@@ -1382,7 +1381,7 @@
     "website": "https://www.toulouse.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "garden",
-    "image": null
+    "image": "https://www.guide-toulouse-pyrenees.com/_bibli/annonces/1457/hd/jardins-compans-caffarelli-13-.jpg"
   },
   {
     "name": "Jardin Public Bordeaux",
@@ -1392,7 +1391,7 @@
     "website": "https://www.bordeaux.fr/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
-    "image": null
+    "image": "https://c8.alamy.com/comp/HH4KEE/wrought-iron-bridge-in-the-jardin-public-bordeaux-gironde-aquitaine-HH4KEE.jpg"
   },
   {
     "name": "Parc Floral de La Bouichère",
@@ -1402,7 +1401,7 @@
     "website": "https://www.parcflorallabouichere.com/",
     "nearCampsite": "Camping La Prade",
     "category": "garden",
-    "image": null
+    "image": "https://images.ladepeche.fr/api/v1/images/view/5c34bb588fe56f6ef72ccf64/large/image.jpg"
   },
   {
     "name": "Les Jardins de l'Imaginaire",
@@ -1412,7 +1411,7 @@
     "website": "https://www.jardins-imaginaire.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
-    "image": null
+    "image": "https://www.guide-du-perigord.com/_bibli/articlesPage/116/images/img-1451.jpg?v=ficheArticle&width=549&height=275&pixelRatio=2.6250"
   },
   {
     "name": "Parc du Château de Méric",
@@ -1422,7 +1421,7 @@
     "website": "https://www.montpellier.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "garden",
-    "image": null
+    "image": "https://www.escapadeslr.com/img/sites/74-meric-montpellier-gd.jpg"
   },
   {
     "name": "Jardin de la Daurade",
@@ -1432,7 +1431,7 @@
     "website": "https://www.toulouse.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "garden",
-    "image": null
+    "image": "https://www.guide-toulouse-pyrenees.com/_bibli/annonces/1481/hd/jardins-daurade-1.jpg"
   },
   {
     "name": "Parc Bordelais",
@@ -1442,7 +1441,7 @@
     "website": "https://www.bordeaux.fr/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
-    "image": null
+    "image": "https://c8.alamy.com/comp/W0E0T2/france-gironde-bordeaux-lake-in-the-parc-bordelais-W0E0T2.jpg"
   },
   {
     "name": "Arboretum de La Jonchère",
@@ -1452,7 +1451,7 @@
     "website": "https://www.tourisme-hautevienne.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
-    "image": null
+    "image": "https://woody.cloudly.space/app/uploads/terresdelimousin/2024/03/thumbs/arboretum-jonchere-@chrimstelle-copie-640x480.webp"
   },
   {
     "name": "Les Jardins de Sardy",
@@ -1462,7 +1461,7 @@
     "website": "https://jardinsdesardy.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "garden",
-    "image": null
+    "image": "https://www.northofthedordogne.com/images/places/fullsize/sardy.jpg"
   },
   {
     "name": "Cité de l'Espace",
@@ -1472,7 +1471,7 @@
     "website": "https://www.cite-espace.com/",
     "nearCampsite": "Camping La Prade",
     "category": "museum",
-    "image": null
+    "image": "https://c8.alamy.com/comp/BBPRDW/playground-ariane-5-rocket-the-cite-de-lespace-toulouse-haute-garonne-BBPRDW.jpg"
   },
   {
     "name": "Aeroscopia",
@@ -1482,7 +1481,7 @@
     "website": "https://www.musee-aeroscopia.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "museum",
-    "image": null
+    "image": "https://c8.alamy.com/comp/2BYF0CB/airbus-a300b-wide-body-airliner-display-in-musee-aeroscopia-museum-blagnactoulousehaute-garonneoccitaniefrance-2BYF0CB.jpg"
   },
   {
     "name": "L'Envol des Pionniers",
@@ -1492,7 +1491,7 @@
     "website": "https://www.lenvol-des-pionniers.com/",
     "nearCampsite": "Camping La Prade",
     "category": "museum",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Envol_des_pionniers.jpg"
   },
   {
     "name": "Musée Fabre",
@@ -1502,7 +1501,7 @@
     "website": "https://museefabre.montpellier3m.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "museum",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Musee_Fabre.jpg"
   },
   {
     "name": "Bassins de Lumières",
@@ -1512,7 +1511,7 @@
     "website": "https://www.bassins-lumieres.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "museum",
-    "image": null
+    "image": "https://www.guide-bordeaux-gironde.com/_bibli/annonces/10362/hd/bassin-des-lumieres-bordeaux-1.jpg"
   },
   {
     "name": "Musée du Vin et du Négoce",
@@ -1522,7 +1521,7 @@
     "website": "https://www.museeduvinbordeaux.com/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "museum",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/45/7d/2e/in-the-cellar-dans-la.jpg?w=1200&h=-1&s=1"
   },
   {
     "name": "Musée des Beaux-Arts de Limoges",
@@ -1532,7 +1531,7 @@
     "website": "https://www.museebal.fr/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "museum",
-    "image": null
+    "image": "https://c8.alamy.com/comp/ECJGYW/france-haute-vienne-limoges-musee-des-beaux-arts-de-limoges-museum-ECJGYW.jpg"
   },
   {
     "name": "Musée National Adrien Dubouché",
@@ -1542,7 +1541,7 @@
     "website": "https://www.musee-adriendubouche.fr/",
     "nearCampsite": "Camping Domaine des Mathevies",
     "category": "museum",
-    "image": null
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Limoges_mus%C3%A9e_national_de_la_porcelaine_Adrien_Dubouch%C3%A9_1.jpg/1200px-Limoges_mus%C3%A9e_national_de_la_porcelaine_Adrien_Dubouch%C3%A9_1.jpg"
   },
   {
     "name": "Musée de l'Inquisition",
@@ -1552,7 +1551,7 @@
     "website": "https://www.musee-inquisition-carcassonne.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "museum",
-    "image": null
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/d5/0a/5f/le-musee-de-la-torture.jpg?w=900&h=500&s=1"
   },
   {
     "name": "Musée de la Romanité",
@@ -1562,6 +1561,6 @@
     "website": "https://museedelaromanite.fr/",
     "nearCampsite": "Camping La Prade",
     "category": "museum",
-    "image": null
+    "image": "https://museedelaromanite.fr/content/uploads/2018/07/slider1-2-1024x630.v1532596954.jpg"
   }
 ]
