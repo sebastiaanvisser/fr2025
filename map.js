@@ -81,6 +81,7 @@ let campsiteMarkers = {
 let visitCampsiteMarkers = {}; // Individual markers for visit campsites
 let poiMarkers = {}; // Store POI markers by category
 let distanceCircles = []; // Store distance circles for visualization
+let currentInfoWindow = null; // Store current open info window
 
 /* ------------ reusable route plotting function ------------ */
 function plotRoute(map, origin, destination, waypoints = [], lineColor = "#0000ff", lineWeight = 4) {
@@ -149,7 +150,15 @@ function loadCampsites(map, bounds, campsiteUrl = "campsites.json", markerColor 
             `${cs.percent} % of trip, ${cs.detour}<br>` +
             `<a href="${cs.website}" target="_blank">Website</a>`,
         });
-        marker.addListener("click", () => iw.open(map, marker));
+        marker.addListener("click", () => {
+          // Close previous info window if open
+          if (currentInfoWindow) {
+            currentInfoWindow.close();
+          }
+          // Open new info window and store reference
+          iw.open(map, marker);
+          currentInfoWindow = iw;
+        });
         bounds.extend(marker.getPosition());
         markers.push(marker);
         
@@ -280,7 +289,15 @@ function loadPOIs(map, bounds, poiUrl = "poi.json") {
         const iw = new google.maps.InfoWindow({
           content: content,
         });
-        marker.addListener("click", () => iw.open(map, marker));
+        marker.addListener("click", () => {
+          // Close previous info window if open
+          if (currentInfoWindow) {
+            currentInfoWindow.close();
+          }
+          // Open new info window and store reference
+          iw.open(map, marker);
+          currentInfoWindow = iw;
+        });
         bounds.extend(marker.getPosition());
         
         // Store marker by category
@@ -557,14 +574,27 @@ function applyDistanceFilter() {
 }
 
 function zoomToVisitCampsites() {
-  if (!mapInstance || !visitCampsiteMarkers) return;
+  if (!mapInstance) {
+    console.warn('Map instance not available');
+    return;
+  }
+  
+  if (!visitCampsiteMarkers) {
+    console.warn('Visit campsite markers not available');
+    return;
+  }
   
   // Get all visit campsite positions
   const visitCampsitePositions = Object.values(visitCampsiteMarkers)
     .filter(marker => marker && marker.getMap()) // Only visible markers
     .map(marker => marker.getPosition());
   
-  if (visitCampsitePositions.length === 0) return;
+  console.log('Visit campsite positions found:', visitCampsitePositions.length);
+  
+  if (visitCampsitePositions.length === 0) {
+    console.warn('No visible visit campsites found');
+    return;
+  }
   
   // Create bounds that include all visit campsites
   const bounds = new google.maps.LatLngBounds();
@@ -584,6 +614,7 @@ function zoomToVisitCampsites() {
   
   // Fit map to bounds
   mapInstance.fitBounds(bounds);
+  console.log('Map zoomed to visit campsites');
 }
 
 function setupToggleListeners() {
@@ -610,7 +641,32 @@ function setupToggleListeners() {
   
   // Zoom to visit campsites button
   document.getElementById('zoom-to-visit-campsites').addEventListener('click', () => {
-    zoomToVisitCampsites();
+    // If visit campsites aren't loaded yet, try to load them first
+    if (!visitCampsiteMarkers || Object.keys(visitCampsiteMarkers).length === 0) {
+      console.log('Visit campsites not loaded, attempting to load...');
+      const visitUrlWithCacheBuster = `campsites/visit.json?v=${Date.now()}`;
+      fetch(visitUrlWithCacheBuster)
+        .then(r => r.json())
+        .then(visitCampsites => {
+          // Create markers for visit campsites
+          visitCampsites.forEach(cs => {
+            const marker = new google.maps.Marker({
+              position: { lat: cs.lat, lng: cs.lng },
+              map: mapInstance,
+              title: cs.name,
+              icon: undefined, // Use default Google Maps marker
+            });
+            visitCampsiteMarkers[cs.name] = marker;
+          });
+          // Now try to zoom
+          setTimeout(() => zoomToVisitCampsites(), 100);
+        })
+        .catch(error => {
+          console.error('Failed to load visit campsites for zoom:', error);
+        });
+    } else {
+      zoomToVisitCampsites();
+    }
   });
 }
 
