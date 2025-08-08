@@ -106,5 +106,375 @@
     "lat": 46.778,
     "lng": 4.855,
     "website": "https://www.camping-chalon.com/?lang=en"
+  },
+  {
+    "name": "Camping Kockelscheuer ★★★",
+    "location": "Kockelscheuer (Luxembourg City)",
+    "percent": 30,
+    "detour": "5 km / ≈8 min from A3 exit Hesperange",
+    "lat": 49.562,
+    "lng": 6.094,
+    "website": "https://en.ccclv.lu/"
+  },
+  {
+    "name": "Birkelt Village ★★★★★",
+    "location": "Larochette (Luxembourg)",
+    "percent": 33,
+    "detour": "10 km / ≈15 min from A7 exit Waldhof",
+    "lat": 49.789,
+    "lng": 6.209,
+    "website": "https://birkelt.huopenair.com/"
+  },
+  {
+    "name": "Camping Fuussekaul ★★★★",
+    "location": "Heiderscheid (Luxembourg)",
+    "percent": 34,
+    "detour": "4 km / ≈5 min from N12 / E421 junction",
+    "lat": 49.913,
+    "lng": 5.938,
+    "website": "https://www.fuussekaul.lu/en/"
+  },
+  {
+    "name": "Camping Les Breuils ★★★",
+    "location": "Verdun (Meuse)",
+    "percent": 37,
+    "detour": "5 km / ≈10 min from A4 exit 30 (Verdun-Centre)",
+    "lat": 49.166,
+    "lng": 5.395,
+    "website": "https://www.camping-lesbreuils.com/"
+  },
+  {
+    "name": "Camping Municipal Metz Plage ★★★",
+    "location": "Metz (Moselle)",
+    "percent": 38,
+    "detour": "3 km / ≈7 min from A31 exit 29 (Metz-Centre)",
+    "lat": 49.111,
+    "lng": 6.143,
+    "website": "https://www.tourisme-metz.com/en/page/838030250-camping-municipal-metz-plage"
+  },
+  {
+    "name": "Camping Lac de Madine ★★★",
+    "location": "Heudicourt-sous-les-Côtes (Meuse)",
+    "percent": 39,
+    "detour": "15 km / ≈20 min from A4 exit 32 (Fresnes-en-Woëvre)",
+    "lat": 48.944,
+    "lng": 5.698,
+    "website": "https://lacmadine.com/sorganiser/dormir/camping/"
+  },
+
+  {
+    "name": "Camping Sainte-Marie ★★★",
+    "location": "Chaumont (Haute-Marne)",
+    "percent": 40,
+    "detour": "3 km / ≈6 min from A5 exit Chaumont-Nord",
+    "lat": 48.118,
+    "lng": 5.132,
+    "website": "https://www.bienvenue-hautemarne.fr/hebergements/chaumont-au-camping-sainte-marie-hpacha052v500ni3/"
+  },
+  {
+    "name": "Camping Navarre ★★",
+    "location": "Langres (Haute-Marne)",
+    "percent": 44,
+    "detour": "4 km / ≈6 min from A31 exit 6 Langres-Nord",
+    "lat": 47.86,
+    "lng": 5.33,
+    "website": "https://www.camping-navarre-langres.com/en"
+  },
+  {
+    "name": "Camping Hautoreille ★★★",
+    "location": "Bannes / Langres Sud",
+    "percent": 45,
+    "detour": "2 km / ≈3 min from A31 exit 7 Langres-Sud",
+    "lat": 47.897,
+    "lng": 5.393,
+    "website": "https://campinghautoreille.com/index.php/en/"
+  },
+  {
+    "name": "Camping La Croix d’Arles ★★",
+    "location": "Saints-Geosmes (plateau de Langres)",
+    "percent": 45,
+    "detour": "0.5 km / ≈1 min from D974 (Nationale 74) at Langres-Sud",
+    "lat": 47.812,
+    "lng": 5.321,
+    "website": "https://www.campinglacroixdarles.fr"
+  },
+  {
+    "name": "Castel La Forge de Sainte-Marie ★★★★★",
+    "location": "Thonnance-les-Moulins (Joinville)",
+    "percent": 40,
+    "detour": "20 km / ≈25 min from A5 exit 23 (Chaumont-Semoutiers)",
+    "lat": 48.406,
+    "lng": 5.271,
+    "website": "https://www.camping-forge-de-sainte-marie.com/?lang=en"
+  },
+  {
+    "name": "Seasonova Vesoul – Camping du Lac ★★★",
+    "location": "Vaivre-et-Montoille / Vesoul",
+    "percent": 51,
+    "detour": "3 km / ≈5 min from N57 (E23) ring road",
+    "lat": 47.63,
+    "lng": 6.129,
+    "website": "https://vacances-seasonova.com/en/camping/vesoul/"
+  },
+  {
+    "name": "Camping La Saône Jolie ★★★",
+    "location": "Scey-sur-Saône (Haute-Saône)",
+    "percent": 50,
+    "detour": "10 km / ≈12 min from N19 at Combeaufontaine",
+    "lat": 47.662,
+    "lng": 5.975,
+    "website": "https://www.camping.info/en/campsite/camping-la-saone-jolie"
+  },
+  {
+    "name": "Camping Vert Lagon ★★★",
+    "location": "Marnay (Haute-Saône)",
+    "percent": 52,
+    "detour": "4 km / ≈5 min from D457 (Besançon ↔ Gray)",
+    "lat": 47.29,
+    "lng": 5.778,
+    "website": "https://woka-marnay.fr/"
+  },
+  {
+    "name": "Camping Le Val de Bonnal ★★★★★",
+    "location": "Bonnal (Doubs)",
+    "percent": 53,
+    "detour": "12 km / ≈15 min from A36 exit 5 Baume-les-Dames",
+    "lat": 47.508,
+    "lng": 6.356,
+    "website": "https://www.camping-valdebonnal.com/?lang=en_US"
+  },
+  {
+    "name": "Domaine d’Aucroix ★★★",
+    "location": "Baume-les-Dames",
+    "percent": 53,
+    "detour": "7 km / ≈8 min from A36 exit 5",
+    "lat": 47.337,
+    "lng": 6.354,
+    "website": "https://www.domaine-aucroix.org/"
+  },
+  {
+    "name": "Camping de Besançon ★★★",
+    "location": "Chalezeule / Besançon",
+    "percent": 55,
+    "detour": "5 km / ≈7 min from A36 exit 4 (Besançon-Est)",
+    "lat": 47.266,
+    "lng": 6.071,
+    "website": "https://www.campingdebesancon.com/en/"
+  },
+  {
+    "name": "Camping Les Lacs d’Osselle ★★",
+    "location": "Osselle-Routelle (Doubs)",
+    "percent": 55,
+    "detour": "8 km / ≈10 min from A36 exit 2 (Saint-Vit)",
+    "lat": 47.14,
+    "lng": 5.852,
+    "website": "https://en.montagnes-du-jura.fr/campsites/camping-les-lacs-dosselle"
+  },
+  {
+    "name": "Camping Domaine du Château ★★",
+    "location": "Épinal (Vosges)",
+    "percent": 49,
+    "detour": "4 km / ≈10 min from N57 exit Épinal-Centre",
+    "lat": 48.18,
+    "lng": 6.437,
+    "website": "https://domaineduchateau-epinal.com/?lang=en"
+  },
+  {
+    "name": "Les Nids du Lac (Lac de Bouzey) ★★★★",
+    "location": "Sanchey – Lake Bouzey",
+    "percent": 49,
+    "detour": "8 km / ≈12 min from N57 exit Épinal-Ouest",
+    "lat": 48.143,
+    "lng": 6.342,
+    "website": "https://lesnidsdulac.com/en/"
+  },
+  {
+    "name": "Camping L’île aux Mille Charmes ★★★",
+    "location": "Charmes (Moselle canal)",
+    "percent": 46,
+    "detour": "6 km / ≈10 min from N57 exit Charmes-Centre",
+    "lat": 48.371,
+    "lng": 6.289,
+    "website": "https://www.eurocampings.co.uk/france/lorraine/vosges/charmes/camping-lile-aux-mille-charmes-100282/"
+  },
+  {
+    "name": "Camping L’Orée des Vosges ★★★",
+    "location": "Le Val-d’Ajol",
+    "percent": 53,
+    "detour": "10 km / ≈15 min from N57 exit Remiremont-Sud",
+    "lat": 47.877,
+    "lng": 6.656,
+    "website": "https://camping-val-dajol.fr/en/"
+  },
+  {
+    "name": "Domaine des Messires ★★★★",
+    "location": "Herpelmont (between Bruyères & Gérardmer)",
+    "percent": 50,
+    "detour": "16 km / ≈20 min from N57 exit Bruyères",
+    "lat": 48.143,
+    "lng": 6.737,
+    "website": "https://www.domainedesmessires.com/en/"
+  },
+  {
+    "name": "Flower Camping La Sténiole ★★★★",
+    "location": "Granges-Aumontzey (near Gérardmer)",
+    "percent": 50,
+    "detour": "15 km / ≈20 min from N57 exit Bruyères",
+    "lat": 48.154,
+    "lng": 6.781,
+    "website": "https://en.steniole.com/accueil/"
+  },
+  {
+    "name": "Camping Verte Vallée ★★★★",
+    "location": "Xonrupt-Longemer (Lake Longemer)",
+    "percent": 51,
+    "detour": "25 km / ≈30 min from N57 exit Gérardmer",
+    "lat": 48.063,
+    "lng": 6.964,
+    "website": "https://www.campingvertevallee.com/en/"
+  },
+  {
+    "name": "Camping Les Trexons ★★★",
+    "location": "Gerbépal (between Gérardmer & Corcieux)",
+    "percent": 51,
+    "detour": "18 km / ≈22 min from A35/A36 via Colmar—Gérardmer D417",
+    "lat": 48.108,
+    "lng": 6.903,
+    "website": "https://camping-lestrexons.com/en/"
+  },
+  {
+    "name": "Flower Camping Le Clé de Saône ★★★★",
+    "location": "Crêches-sur-Saône (Mâcon Sud)",
+    "percent": 66,
+    "detour": "3 km / ≈5 min from A6 exit 29 (Mâcon-Sud)",
+    "lat": 46.278,
+    "lng": 4.805,
+    "website": "https://www.cle-de-saone.com/en/"
+  },
+  {
+    "name": "Camping Parc de la Baignade ★★ (municipal)",
+    "location": "Saint-Laurent-sur-Saône / Mâcon",
+    "percent": 65,
+    "detour": "2 km / ≈4 min from A6 exit 28 (Mâcon-Nord)",
+    "lat": 46.309,
+    "lng": 4.83,
+    "website": "https://www.macon-tourism.com/en/plan-your-stay/accommodation/la-baignade-campsite"
+  },
+  {
+    "name": "Camping Aux Rives du Soleil ★★★★",
+    "location": "Pont-de-Vaux (Ain)",
+    "percent": 67,
+    "detour": "10 km / ≈12 min from A40 exit 4 (Pont-de-Vaux)",
+    "lat": 46.412,
+    "lng": 4.939,
+    "website": "https://www.rivesdusoleil.com/en/"
+  },
+  {
+    "name": "Camping Les Ripettes ★★★",
+    "location": "Jayat (near Pont-de-Vaux)",
+    "percent": 68,
+    "detour": "12 km / ≈15 min from A40 exit 5 (Bourg-Nord)",
+    "lat": 46.415,
+    "lng": 5.04,
+    "website": "https://www.lesripettes.com/en/"
+  },
+  {
+    "name": "Camping La Grappe Fleurie ★★★★",
+    "location": "Fleurie (Beaujolais)",
+    "percent": 68,
+    "detour": "7 km / ≈10 min from N79/A406 → D37",
+    "lat": 46.18,
+    "lng": 4.717,
+    "website": "https://www.campinglagrappefleurie.com/en/"
+  },
+  {
+    "name": "Camping du Bois de la Dame ★★★",
+    "location": "Cormatin (Cluny-Tournus area)",
+    "percent": 62,
+    "detour": "6 km / ≈8 min from A6 exit 26 (Tournus)",
+    "lat": 46.555,
+    "lng": 4.664,
+    "website": "https://www.camping-boisdeladame.com/en"
+  },
+  {
+    "name": "Camping Le Hameau des Champs ★★★",
+    "location": "Cormatin (Saône-et-Loire)",
+    "percent": 62,
+    "detour": "6 km / ≈8 min from A6 exit 26",
+    "lat": 46.557,
+    "lng": 4.649,
+    "website": "https://www.lehameaudeschamps.com/en/"
+  },
+  {
+    "name": "Camping La Truchère ★★★",
+    "location": "La Truchère (Saône-Seille confluence)",
+    "percent": 64,
+    "detour": "9 km / ≈12 min from A6 exit 27 (Tournus-Sud)",
+    "lat": 46.528,
+    "lng": 4.978,
+    "website": "https://www.campinglatruchere.fr/"
+  },
+  {
+    "name": "Camping Domaine de Mépillat ★★★★",
+    "location": "Saint-Nizier-le-Bouchoux (Bresse)",
+    "percent": 68,
+    "detour": "18 km / ≈20 min from A39 exit 6 (Cuiseaux)",
+    "lat": 46.372,
+    "lng": 5.057,
+    "website": "https://www.camping-domaine-mepillat.com/en/"
+  },
+  {
+    "name": "Castel Château de l’Épervière ★★★★",
+    "location": "Gigny-sur-Saône",
+    "percent": 64,
+    "detour": "15 km / ≈18 min from A6 exit 27 (Tournus-Sud)",
+    "lat": 46.558,
+    "lng": 4.937,
+    "website": "https://www.leperviere.com/en/"
+  },
+  {
+    "name": "Camping de Mars ★★★",
+    "location": "Mars (Lac de Villerest, Loire)",
+    "percent": 71,
+    "detour": "14 km / ≈18 min from N7 exit Saint-Germain-Laval",
+    "lat": 45.94,
+    "lng": 4.03,
+    "website": "https://campingdemars.com/en/"
+  },
+  {
+    "name": "Camping du Lac de Villerest ★★★",
+    "location": "Villerest (Loire)",
+    "percent": 70,
+    "detour": "8 km / ≈10 min from N7 exit Roanne-Sud",
+    "lat": 45.995,
+    "lng": 4.036,
+    "website": "https://www.villerest.com/camping"
+  },
+  {
+    "name": "Camping La Route Bleue ★★★",
+    "location": "Balbigny (Loire)",
+    "percent": 72,
+    "detour": "2 km / ≈3 min from N82 / A72 exit 8",
+    "lat": 45.817,
+    "lng": 4.218,
+    "website": "https://www.camping-la-route-bleue.com/en/"
+  },
+  {
+    "name": "Camping Val de Loire en Beaujolais ★★★★",
+    "location": "Saint-Georges-de-Renéins (Rhône-Beaujolais)",
+    "percent": 69,
+    "detour": "6 km / ≈8 min from A6 exit 30.2 (Belleville)",
+    "lat": 45.965,
+    "lng": 4.723,
+    "website": "https://www.campingvaldeloire.com/en/"
+  },
+  {
+    "name": "Camping Le Village des Meuniers ★★★★",
+    "location": "Dompierre-les-Ormes (Cluny heights)",
+    "percent": 64,
+    "detour": "20 km / ≈25 min from N79 (RCEA) exit Trivy",
+    "lat": 46.307,
+    "lng": 4.514,
+    "website": "https://www.villagedesmeuniers.com/en/"
   }
 ]
