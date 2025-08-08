@@ -217,6 +217,35 @@ function loadCampsites(map, bounds, campsiteUrl = "campsites.json", markerColor 
     });
 }
 
+/* ------------ update campsite counts function ------------ */
+function updateCampsiteCounts() {
+  // Update east campsites count
+  fetch('campsites/east.json')
+    .then(r => r.json())
+    .then(eastCampsites => {
+      const eastCountElement = document.querySelector('#toggle-east-campsites').parentNode.querySelector('.count');
+      if (eastCountElement) {
+        eastCountElement.textContent = `(${eastCampsites.length})`;
+      }
+    })
+    .catch(error => {
+      console.error('Failed to load east campsites count:', error);
+    });
+
+  // Update west campsites count
+  fetch('campsites/west.json')
+    .then(r => r.json())
+    .then(westCampsites => {
+      const westCountElement = document.querySelector('#toggle-west-campsites').parentNode.querySelector('.count');
+      if (westCountElement) {
+        westCountElement.textContent = `(${westCampsites.length})`;
+      }
+    })
+    .catch(error => {
+      console.error('Failed to load west campsites count:', error);
+    });
+}
+
 /* ------------ load multiple campsite files function ------------ */
 function loadMultipleCampsites(map, bounds, campsiteConfigs) {
   const promises = campsiteConfigs.map(config => 
@@ -226,6 +255,9 @@ function loadMultipleCampsites(map, bounds, campsiteConfigs) {
   return Promise.all(promises)
     .then(results => {
       console.log(`Loaded ${results.length} campsite files`);
+      
+      // Update campsite counts
+      updateCampsiteCounts();
       
       // Create individual checkboxes for visit campsites
       const visitConfig = campsiteConfigs.find(config => config.type === "visit");
